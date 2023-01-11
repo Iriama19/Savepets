@@ -1,0 +1,4 @@
+Model,Username,User_Country,User_Province,User_City,User_PostalCode,Numpublication,NumPublicationAdoption,NumPublicationHelp,NumPublicationStray,NumComment,UserAge,Work,Studies,"Marital Status",Children,Housing,"Other Pets",NumPets,Gender,Specie,Chip,Sex,Race,Age,State
+Pages,admin,españa,Pontevedra,Desconocida,1,6,1,1,4,2,23,admin,admin,admin,1,admin,dog,3,,,,,,,
+Animal,admin,españa,Pontevedra,Desconocida,1,6,1,1,4,2,23,admin,admin,admin,1,admin,dog,3,,dog,no,unknow,caniche,4,unknown
+PublicationAdoption,admin,españa,Pontevedra,Desconocida,1,6,1,1,4,2,23,admin,admin,admin,1,admin,dog,3,,dog,yes,unknow,yorkshire,0,unknown

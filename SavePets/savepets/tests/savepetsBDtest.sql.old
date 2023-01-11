@@ -1,0 +1,590 @@
+-- phpMyAdmin SQL Dump
+-- version 4.9.5deb2
+-- https://www.phpmyadmin.net/
+--
+-- Servidor: localhost:3306
+-- Tiempo de generación: 20-11-2022 a las 19:11:12
+-- Versión del servidor: 8.0.31-0ubuntu0.20.04.1
+-- Versión de PHP: 7.4.3
+
+
+--
+-- Base de datos: `savepetsBDtest`
+--
+
+DROP DATABASE IF EXISTS savepetsBDtest;
+CREATE DATABASE savepetsBDtest DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+use savepetsBDtest;
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `address`
+--
+
+CREATE TABLE `address` (
+  `id` int NOT NULL,
+  `province` varchar(30) NOT NULL,
+  `postal_code` int NOT NULL,
+  `city` varchar(100) NOT NULL,
+  `street` varchar(100) NOT NULL,
+  `country` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+--
+-- Volcado de datos para la tabla `address`
+--
+
+INSERT INTO `address` (`id`, `province`, `postal_code`, `city`, `street`, `country`) VALUES
+(1, 'Pontevedra', 1, 'Desconocida', 'Desconocida', 'españa');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `animal`
+--
+
+CREATE TABLE `animal` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) DEFAULT NULL,
+  `image` varchar(300) DEFAULT NULL,
+  `specie` enum('cat','dog','bunny','hamster','snake','turtles','other') NOT NULL,
+  `chip` enum('yes','no','unknown') DEFAULT NULL,
+  `sex` enum('intact_female','intact_male','neutered_female','castrated_male','unknow') NOT NULL,
+  `race` varchar(100) DEFAULT NULL,
+  `age` int DEFAULT NULL,
+  `information` varchar(300) DEFAULT NULL,
+  `state` enum('healthy','sick','adopted','dead','foster','vet','unknown','other')  NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `animal_adoption`
+--
+
+CREATE TABLE `animal_adoption` (
+  `id` int NOT NULL,
+  `start_date` datetime NOT NULL,
+  `end_date` datetime DEFAULT NULL,
+  `user_id` int NOT NULL,
+  `animal_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `animal_shelter`
+--
+
+CREATE TABLE `animal_shelter` (
+  `id` int NOT NULL,
+  `start_date` datetime NOT NULL,
+  `end_date` datetime DEFAULT NULL,
+  `user_id` int NOT NULL,
+  `animal_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `comment`
+--
+
+CREATE TABLE `comment` (
+  `id` int NOT NULL,
+  `comment_date` datetime NOT NULL,
+  `message` varchar(300) NOT NULL,
+  `publication_id` int NOT NULL,
+  `user_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `event`
+--
+
+CREATE TABLE `event` (
+  `id` int NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `message` varchar(300) DEFAULT NULL,
+  `start_date` datetime NOT NULL,
+  `end_date` datetime NOT NULL,
+  `user_id` int NOT NULL,
+  `addres_id` int DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `feature`
+--
+
+CREATE TABLE `feature` (
+  `id` int NOT NULL,
+  `key_feature` varchar(100) NOT NULL,
+  `value_feature` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `feature_profile`
+--
+
+CREATE TABLE `feature_profile` (
+  `id` int NOT NULL,
+  `feature_id` int NOT NULL,
+  `profile_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `feature_user`
+--
+
+CREATE TABLE `feature_user` (
+  `id` int NOT NULL,
+  `user_id` int NOT NULL,
+  `feature_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `foster_list`
+--
+
+CREATE TABLE `foster_list` (
+  `id` int NOT NULL,
+  `user_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `foster_list_user`
+--
+
+CREATE TABLE `foster_list_user` (
+  `id` int NOT NULL,
+  `foster_list_id` int NOT NULL,
+  `user_id` int NOT NULL,
+  `specie` enum('cat','dog','bunny','hamster','snake','turtles','other','indifferent') DEFAULT NULL,
+  `foster_date` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `message`
+--
+
+CREATE TABLE `message` (
+  `id` int NOT NULL,
+  `message_date` datetime NOT NULL,
+  `title` varchar(100) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL,
+  `content` varchar(700) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL,
+  `transmitter_user_id` int NOT NULL,
+  `receiver_user_id` int NOT NULL,
+  `readed` enum('yes','no') CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `profile`
+--
+
+CREATE TABLE `profile` (
+  `id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `profile_user`
+--
+
+CREATE TABLE `profile_user` (
+  `id` int NOT NULL,
+  `user_id` int NOT NULL,
+  `profile_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `publication`
+--
+
+CREATE TABLE `publication` (
+  `id` int NOT NULL,
+  `publication_date` datetime NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `message` varchar(700) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `publication_adoption`
+--
+
+CREATE TABLE `publication_adoption` (
+  `id` int NOT NULL,
+  `publication_id` int NOT NULL,
+  `animal_id` int NOT NULL,
+  `urgent` enum('yes','no') NOT NULL,
+  `user_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `publication_help`
+--
+
+CREATE TABLE `publication_help` (
+  `id` int NOT NULL,
+  `publication_id` int NOT NULL,
+  `categorie` enum('textile','medical devices','food','cleaning products','hygiene products','pet accessories','other') NOT NULL,
+  `user_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `publication_stray`
+--
+
+CREATE TABLE `publication_stray` (
+  `id` int NOT NULL,
+  `publication_id` int NOT NULL,
+  `image` varchar(300) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci DEFAULT NULL,
+  `urgent` enum('yes','no') NOT NULL,
+  `user_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `publication_stray_address`
+--
+
+CREATE TABLE `publication_stray_address` (
+  `id` int NOT NULL,
+  `publication_stray_id` int NOT NULL,
+  `addres_id` int NOT NULL,
+  `user_id` int NOT NULL,
+  `publication_date` datetime NOT NULL,
+  `image` varchar(300) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `user`
+--
+
+CREATE TABLE `user` (
+  `id` int NOT NULL,
+  `DNI_CIF` varchar(9) NOT NULL,
+  `name` varchar(30) NOT NULL,
+  `lastname` varchar(100) DEFAULT NULL,
+  `username` varchar(30) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `phone` varchar(15) NOT NULL,
+  `role` enum('standar','admin','shelter') NOT NULL,
+  `addres_id` int NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
+
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `address`
+--
+ALTER TABLE `address`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `animal`
+--
+ALTER TABLE `animal`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `animal_adoption`
+--
+ALTER TABLE `animal_adoption`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `user_id` (`user_id`) USING BTREE,
+  ADD KEY `animal_id` (`animal_id`) USING BTREE;
+
+--
+-- Indices de la tabla `animal_shelter`
+--
+ALTER TABLE `animal_shelter`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `shelter` (`user_id`),
+  ADD KEY `animal` (`animal_id`);
+
+--
+-- Indices de la tabla `comment`
+--
+ALTER TABLE `comment`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `user_id` (`user_id`) USING BTREE,
+  ADD KEY `publication_id` (`publication_id`) USING BTREE;
+
+--
+-- Indices de la tabla `event`
+--
+ALTER TABLE `event`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `shelter` (`user_id`),
+  ADD KEY `address` (`addres_id`);
+
+--
+-- Indices de la tabla `feature`
+--
+ALTER TABLE `feature`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `key_feature` (`key_feature`);
+
+--
+-- Indices de la tabla `feature_profile`
+--
+ALTER TABLE `feature_profile`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `feature_id` (`feature_id`) USING BTREE,
+  ADD KEY `profile_id` (`profile_id`) USING BTREE;
+
+--
+-- Indices de la tabla `feature_user`
+--
+ALTER TABLE `feature_user`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `user_id` (`user_id`) USING BTREE,
+  ADD KEY `feature_id` (`feature_id`) USING BTREE;
+
+--
+-- Indices de la tabla `foster_list`
+--
+ALTER TABLE `foster_list`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `user_id_2` (`user_id`),
+  ADD KEY `user_id` (`user_id`) USING BTREE;
+
+--
+-- Indices de la tabla `foster_list_user`
+--
+ALTER TABLE `foster_list_user`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `foster_list_id` (`foster_list_id`) USING BTREE,
+  ADD KEY `user_id` (`user_id`) USING BTREE;
+
+--
+-- Indices de la tabla `message`
+--
+ALTER TABLE `message`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `transmitter` (`transmitter_user_id`),
+  ADD KEY `receiver` (`receiver_user_id`);
+
+--
+-- Indices de la tabla `profile`
+--
+ALTER TABLE `profile`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `profile_user`
+--
+ALTER TABLE `profile_user`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `user_id` (`user_id`) USING BTREE,
+  ADD KEY `profile_id` (`profile_id`) USING BTREE;
+
+--
+-- Indices de la tabla `publication`
+--
+ALTER TABLE `publication`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indices de la tabla `publication_adoption`
+--
+ALTER TABLE `publication_adoption`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `publication_id` (`publication_id`) USING BTREE,
+  ADD KEY `animal_id` (`animal_id`) USING BTREE,
+  ADD KEY `user_id` (`user_id`) USING BTREE;
+
+--
+-- Indices de la tabla `publication_help`
+--
+ALTER TABLE `publication_help`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `publication_id` (`publication_id`),
+  ADD KEY `user_id` (`user_id`);
+
+--
+-- Indices de la tabla `publication_stray`
+--
+ALTER TABLE `publication_stray`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `user_id` (`user_id`) USING BTREE,
+  ADD KEY `publication_id` (`publication_id`) USING BTREE;
+
+--
+-- Indices de la tabla `publication_stray_address`
+--
+ALTER TABLE `publication_stray_address`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `publication_stray_id` (`publication_stray_id`),
+  ADD KEY `user_id` (`user_id`),
+  ADD KEY `addres_id` (`addres_id`);
+
+--
+-- Indices de la tabla `user`
+--
+ALTER TABLE `user`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `DNI_CIF` (`DNI_CIF`),
+  ADD UNIQUE KEY `email` (`email`),
+  ADD UNIQUE KEY `phone` (`phone`),
+  ADD UNIQUE KEY `username` (`username`),
+  ADD KEY `addres_id` (`addres_id`) USING BTREE;
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+
+--
+-- Restricciones para tablas volcadas
+--
+
+--
+-- Filtros para la tabla `animal_adoption`
+--
+ALTER TABLE `animal_adoption`
+  ADD CONSTRAINT `animal_adoption_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON UPDATE CASCADE,
+  ADD CONSTRAINT `animal_adoption_ibfk_2` FOREIGN KEY (`animal_id`) REFERENCES `animal` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `animal_shelter`
+--
+ALTER TABLE `animal_shelter`
+  ADD CONSTRAINT `animal_shelter_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `animal_shelter_ibfk_2` FOREIGN KEY (`animal_id`) REFERENCES `animal` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `comment`
+--
+ALTER TABLE `comment`
+  ADD CONSTRAINT `comment_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `comment_ibfk_2` FOREIGN KEY (`publication_id`) REFERENCES `publication` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `event`
+--
+ALTER TABLE `event`
+  ADD CONSTRAINT `event_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `event_ibfk_2` FOREIGN KEY (`addres_id`) REFERENCES `address` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `feature_profile`
+--
+ALTER TABLE `feature_profile`
+  ADD CONSTRAINT `feature_profile_ibfk_1` FOREIGN KEY (`feature_id`) REFERENCES `feature` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `feature_profile_ibfk_2` FOREIGN KEY (`profile_id`) REFERENCES `profile` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `feature_user`
+--
+ALTER TABLE `feature_user`
+  ADD CONSTRAINT `feature_user_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `feature_user_ibfk_2` FOREIGN KEY (`feature_id`) REFERENCES `feature` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `foster_list`
+--
+ALTER TABLE `foster_list`
+  ADD CONSTRAINT `foster_list_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `foster_list_user`
+--
+ALTER TABLE `foster_list_user`
+  ADD CONSTRAINT `foster_list_user_ibfk_1` FOREIGN KEY (`foster_list_id`) REFERENCES `foster_list` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `foster_list_user_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `message`
+--
+ALTER TABLE `message`
+  ADD CONSTRAINT `message_ibfk_1` FOREIGN KEY (`transmitter_user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `message_ibfk_2` FOREIGN KEY (`receiver_user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `profile_user`
+--
+ALTER TABLE `profile_user`
+  ADD CONSTRAINT `profile_user_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `profile_user_ibfk_2` FOREIGN KEY (`profile_id`) REFERENCES `profile` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `publication_adoption`
+--
+ALTER TABLE `publication_adoption`
+  ADD CONSTRAINT `publication_adoption_ibfk_1` FOREIGN KEY (`publication_id`) REFERENCES `publication` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `publication_adoption_ibfk_2` FOREIGN KEY (`animal_id`) REFERENCES `animal` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `publication_adoption_ibfk_3` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `publication_help`
+--
+ALTER TABLE `publication_help`
+  ADD CONSTRAINT `publication_help_ibfk_1` FOREIGN KEY (`publication_id`) REFERENCES `publication` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `publication_help_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `publication_stray`
+--
+ALTER TABLE `publication_stray`
+  ADD CONSTRAINT `publication_stray_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `publication_stray_ibfk_2` FOREIGN KEY (`publication_id`) REFERENCES `publication` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `publication_stray_address`
+--
+ALTER TABLE `publication_stray_address`
+  ADD CONSTRAINT `publication_stray_address_ibfk_1` FOREIGN KEY (`publication_stray_id`) REFERENCES `publication_stray` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `publication_stray_address_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `publication_stray_address_ibfk_3` FOREIGN KEY (`addres_id`) REFERENCES `address` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+--
+-- Filtros para la tabla `user`
+--
+ALTER TABLE `user`
+  ADD CONSTRAINT `user_ibfk_1` FOREIGN KEY (`addres_id`) REFERENCES `address` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+COMMIT;
+
+
+DROP USER IF EXISTS 'savepetsuser'@'localhost';
+CREATE USER 'savepetsuser'@'localhost' IDENTIFIED BY 'savepetspass';
+
+GRANT ALL PRIVILEGES ON savepetsBDtest.* TO 'savepetsuser'@'localhost';

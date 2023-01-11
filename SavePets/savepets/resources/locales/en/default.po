@@ -1,0 +1,3017 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2023-01-09 10:03+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Controller/AddressController.php:72
+#: ./src/Controller/UserController.php:81
+msgid "Usuario registrado."
+msgstr "Registered user."
+
+#: ./src/Controller/AddressController.php:75
+#: ./src/Controller/UserController.php:86
+msgid "Error al registrar usuario, por favor intentalo de nuevo."
+msgstr "Error registering user, please try again."
+
+#: ./src/Controller/AddressController.php:101
+msgid "Usuario editado con exito."
+msgstr "User edited successfully."
+
+#: ./src/Controller/AddressController.php:105
+msgid "El usuario no se ha podido editar, por favor intentalo de nuevo."
+msgstr "The user could not be edited, please try again."
+
+#: ./src/Controller/AddressController.php:146
+msgid "Se ha eliminado."
+msgstr "It has been removed."
+
+#: ./src/Controller/AddressController.php:148
+msgid "No se ha podido eliminar, por favor intentalo de nuevo."
+msgstr "Could not delete, please try again."
+
+#: ./src/Controller/AnimalAdoptionController.php:86
+msgid "La adopción se ha añadido con exito."
+msgstr "Adoption has been added successfully."
+
+#: ./src/Controller/AnimalAdoptionController.php:90
+msgid "La adopción no se ha podido añadir, por favor intentalo de nuevo."
+msgstr "The adoption could not be added, please try again."
+
+#: ./src/Controller/AnimalAdoptionController.php:124
+msgid "La adopción ha sido editada correctamente."
+msgstr "The adoption has been edited correctly."
+
+#: ./src/Controller/AnimalAdoptionController.php:128
+msgid "La adopción no se ha podido editar, por favor intentalo de nuevo."
+msgstr "The adoption could not be edited, please try again."
+
+#: ./src/Controller/AnimalAdoptionController.php:162
+msgid "Adopción eliminada."
+msgstr "Adoption removed."
+
+#: ./src/Controller/AnimalAdoptionController.php:164
+msgid "La adopción no se ha podido eliminar, por favor intentalo de nuevo."
+msgstr "The adoption could not be deleted, please try again."
+
+#: ./src/Controller/AnimalController.php:103
+msgid "El animal se ha añadido."
+msgstr "The animal has been added."
+
+#: ./src/Controller/AnimalController.php:106
+#: ./src/Controller/AnimalController.php:110
+msgid "El animal no se ha podido añadir, por favor intentalo de nuevo"
+msgstr "The animal could not be added, please try again"
+
+#: ./src/Controller/AnimalController.php:157
+msgid "El animal se ha editado correctamente."
+msgstr "The animal has been edited successfully."
+
+#: ./src/Controller/AnimalController.php:161
+msgid "El animal no se ha podido editar, por favor intentalo de nuevo."
+msgstr "The animal could not be edited, please try again."
+
+#: ./src/Controller/AnimalController.php:196
+msgid "El animal se ha eliminado."
+msgstr "The animal has been removed."
+
+#: ./src/Controller/AnimalController.php:198
+msgid "El animal no se ha podido eliminar, por favor intentalo de nuevo."
+msgstr "The animal could not be deleted, please try again."
+
+#: ./src/Controller/AnimalShelterController.php:62
+msgid "La estancia en la protectora se ha añadido."
+msgstr "The stay in the protector has been added."
+
+#: ./src/Controller/AnimalShelterController.php:66
+msgid "La estancia en la protectora no se ha podido añadir, por favor intentalo de nuevo."
+msgstr "The stay in the shelter could not be added, please try again."
+
+#: ./src/Controller/AnimalShelterController.php:88
+msgid "La estancia en la protectora se ha editado correctamente."
+msgstr "The shelter stay has been edited correctly."
+
+#: ./src/Controller/AnimalShelterController.php:92
+msgid "La estancia en la protectora no se ha podido editar, por favor intentalo de nuevo."
+msgstr "The stay in the shelter could not be edited, please try again."
+
+#: ./src/Controller/AnimalShelterController.php:111
+msgid "La estancia en la protectora se ha eliminado."
+msgstr "The stay in the shelter has been removed."
+
+#: ./src/Controller/AnimalShelterController.php:113
+msgid "La estancia en la protectora no se ha podido eliminar, por favor intentalo de nuevo."
+msgstr "The stay in the protector could not be deleted, please try again."
+
+#: ./src/Controller/CommentController.php:61
+msgid "Comentario publicado."
+msgstr "Posted comment."
+
+#: ./src/Controller/CommentController.php:65
+msgid "El comentario no se ha podido publicar. Por favor vuelve a intentarlo."
+msgstr "The comment could not be posted. Please try again."
+
+#: ./src/Controller/CommentController.php:87
+msgid "Comentario actualizado."
+msgstr "Comment updated."
+
+#: ./src/Controller/CommentController.php:91
+msgid "El comentario no se ha podido actualizar. Por favor intentalo de nuevo."
+msgstr "The comment could not be updated. Please try again."
+
+#: ./src/Controller/CommentController.php:108
+msgid "Comentario eliminado."
+msgstr "Comment deleted."
+
+#: ./src/Controller/CommentController.php:110
+msgid "El comentario no se ha podido eliminar. Por favor intentalo de nuevo."
+msgstr "The comment could not be deleted. Please try again."
+
+#: ./src/Controller/EventController.php:60
+msgid "El evento se ha añadido."
+msgstr "The event has been added."
+
+#: ./src/Controller/EventController.php:64
+msgid "El evento no se ha podido añadir. Por favor intentalo de nuevo."
+msgstr "The event could not be added. Please try again."
+
+#: ./src/Controller/EventController.php:84
+msgid "Evento actualizado."
+msgstr "Updated event."
+
+#: ./src/Controller/EventController.php:88
+msgid "El evento no se ha podido actualizar. Por favor intentalo de nuevo."
+msgstr "The event could not be updated. Please try again."
+
+#: ./src/Controller/EventController.php:105
+msgid "El evento se ha eliminado."
+msgstr "The event has been deleted."
+
+#: ./src/Controller/EventController.php:107
+msgid "El evento no se ha podido eliminar. Por favor intentalo de nuevo."
+msgstr "The event could not be deleted. Please try again."
+
+#: ./src/Controller/FeatureController.php:53
+msgid "Se ha añadido la característica."
+msgstr "The feature has been added."
+
+#: ./src/Controller/FeatureController.php:57
+msgid "La característica no se ha podido guardar, por favor intentalo de nuevo."
+msgstr "The feature could not be saved, please try again."
+
+#: ./src/Controller/FeatureController.php:77
+msgid "La característica se ha editado con exito."
+msgstr "The feature has been edited successfully."
+
+#: ./src/Controller/FeatureController.php:81
+msgid "La característica no se ha podido editado, por favor intentalo de nuevo."
+msgstr "The feature could not be edited, please try again."
+
+#: ./src/Controller/FeatureController.php:98
+msgid "La característica se ha eliminado con éxito."
+msgstr "The feature has been successfully removed."
+
+#: ./src/Controller/FeatureController.php:100
+msgid "La característica no se ha podido borrar, por favor intentalo de nuevo."
+msgstr "The feature could not be deleted, please try again."
+
+#: ./src/Controller/FeatureUserController.php:56
+#: ./src/Controller/FeatureUserController.php:82
+msgid "The feature user has been saved."
+msgstr ""
+
+#: ./src/Controller/FeatureUserController.php:60
+#: ./src/Controller/FeatureUserController.php:86
+msgid "The feature user could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/FeatureUserController.php:105
+msgid "The feature user has been deleted."
+msgstr ""
+
+#: ./src/Controller/FeatureUserController.php:107
+msgid "The feature user could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/FosterListController.php:90
+msgid "Lista de acogida creada."
+msgstr "Foster list added."
+
+#: ./src/Controller/FosterListController.php:94
+msgid "La lista de acogida no se ha podido crear. Por favor, intentalo de nuevo."
+msgstr "The foster list could not be created. Please try again."
+
+#: ./src/Controller/FosterListController.php:137
+msgid "La lista de acogida se ha eliminado."
+msgstr "The foster list has been removed."
+
+#: ./src/Controller/FosterListController.php:139
+msgid "La lista de acogida no se ha podido eliminar. Por favor intentalo de nuevo."
+msgstr "The host list could not be deleted. Please try again."
+
+#: ./src/Controller/FosterListUserController.php:84
+msgid "Ya estas en esta lista de acogida."
+msgstr "You are already on this foster list."
+
+#: ./src/Controller/FosterListUserController.php:92
+msgid "Te has unido correctamente."
+msgstr "You have successfully joined."
+
+#: ./src/Controller/FosterListUserController.php:96
+msgid "No te has podido unir a la lista de acogida. Por favor, intentalo de nuevo."
+msgstr "You couldn't join the foster list. Please try again."
+
+#: ./src/Controller/FosterListUserController.php:117
+msgid "Tu unión a la lista de acogida se ha editado."
+msgstr "Your joining the foster list has been edited."
+
+#: ./src/Controller/FosterListUserController.php:121
+msgid "Tu unión a la lista de acogida no se ha podido guardar. Por favor intentalo de nuevo."
+msgstr "Your joining the soster list could not be saved. Please try again."
+
+#: ./src/Controller/FosterListUserController.php:138
+msgid "Te has borrado de la lista de acogida."
+msgstr "You have been removed from the foster list."
+
+#: ./src/Controller/FosterListUserController.php:140
+msgid "No te has podido borrar de la lista de acogida. Por favor intentalo de nuevo."
+msgstr "You could not remove yourself from the host list. Please try again."
+
+#: ./src/Controller/MessageController.php:65
+msgid "Mensaje enviado."
+msgstr "Message sent."
+
+#: ./src/Controller/MessageController.php:69
+msgid "El mensaje no se ha podido enviar. Por favor, intentalo de nuevo."
+msgstr "The message could not be sent. Please try again."
+
+#: ./src/Controller/PublicationAdoptionController.php:72
+#: ./src/Controller/PublicationHelpController.php:70
+#: ./src/Controller/PublicationStrayController.php:100
+msgid "Publicado correctamente."
+msgstr "Posted successfully."
+
+#: ./src/Controller/PublicationAdoptionController.php:76
+#: ./src/Controller/PublicationHelpController.php:74
+#: ./src/Controller/PublicationStrayController.php:104
+msgid "Ha habido un error al crear la publicación . Por favor intentalo de nuevo."
+msgstr "There was an error creating the post. Please try again."
+
+#: ./src/Controller/PublicationAdoptionController.php:99
+#: ./src/Controller/PublicationHelpController.php:94
+#: ./src/Controller/PublicationStrayController.php:144
+msgid "La publicación se ha actualizado."
+msgstr "The post has been updated."
+
+#: ./src/Controller/PublicationAdoptionController.php:103
+#: ./src/Controller/PublicationHelpController.php:98
+#: ./src/Controller/PublicationStrayController.php:149
+msgid "La publicación no se ha podido actualizar. Por favor intentalo de nuevo."
+msgstr "The publication could not be updated. Please try again."
+
+#: ./src/Controller/PublicationAdoptionController.php:123
+#: ./src/Controller/PublicationHelpController.php:116
+msgid "Publicación eliminada."
+msgstr "Post deleted."
+
+#: ./src/Controller/PublicationAdoptionController.php:125
+#: ./src/Controller/PublicationController.php:188
+#: ./src/Controller/PublicationHelpController.php:118
+msgid "La publicación no se ha podido eliminar. Por favor intentalo de nuevo."
+msgstr "The post could not be deleted. Please try again."
+
+#: ./src/Controller/PublicationController.php:59
+#: ./src/Controller/PublicationController.php:84
+msgid "The publication has been saved."
+msgstr "The publication has been saved."
+
+#: ./src/Controller/PublicationController.php:63
+#: ./src/Controller/PublicationController.php:88
+msgid "The publication could not be saved. Please, try again."
+msgstr "The publication could not be saved. Please try again."
+
+#: ./src/Controller/PublicationController.php:186
+msgid " La publicación se ha eliminado."
+msgstr " The post has been removed."
+
+#: ./src/Controller/PublicationStrayAddressController.php:90
+msgid "La dirección de la publicación de animal perdido se ha añadido."
+msgstr "The address of the stray animal post has been added."
+
+#: ./src/Controller/PublicationStrayAddressController.php:94
+msgid "La dirección de la publicación de animal perdido se ha no podido añadir. Por favor intentalo de nuevo."
+msgstr "The address of the stray animal publication could not be added. Please try again."
+
+#: ./src/Controller/PublicationStrayAddressController.php:141
+msgid "La dirección de la publicación de animal perdido se ha actualizado."
+msgstr ""
+
+#: ./src/Controller/PublicationStrayAddressController.php:145
+msgid "La dirección de la publicación de animal perdido se ha no podido actualizar. Por favor intentalo de nuevo."
+msgstr "The address of the stray animal post has been updated."
+
+#: ./src/Controller/PublicationStrayAddressController.php:173
+msgid "La dirección de la publicación de animal perdido se ha borrado."
+msgstr "The address of the stray animal post has been updated."
+
+#: ./src/Controller/PublicationStrayAddressController.php:175
+msgid "La dirección de la publicación de animal perdido se ha no podido borrar. Por favor intentalo de nuevo."
+msgstr "The address of the stray animal post could not be updated. Please try again."
+
+#: ./src/Controller/PublicationStrayController.php:176
+msgid "Publicación de perdidos eliminada."
+msgstr "Stray post removed."
+
+#: ./src/Controller/PublicationStrayController.php:178
+msgid "La publicación de perdidos no se ha podido eliminar. Por favor intentalo de nuevo."
+msgstr "The missing stray could not be deleted. Please try again."
+
+#: ./src/Controller/UserController.php:108
+msgid "Usuario modificado."
+msgstr "Edit user."
+
+#: ./src/Controller/UserController.php:112
+msgid "El usuario no se ha podido modificar, por favor vuelva a intentarlo."
+msgstr "The user could not be modified, please try again."
+
+#: ./src/Controller/UserController.php:139
+#: ./src/Controller/UserController.php:140
+msgid "Anonimo"
+msgstr "Anonymous"
+
+#: ./src/Controller/UserController.php:144
+msgid "El usuario se ha eliminado."
+msgstr "The user has been deleted."
+
+#: ./src/Controller/UserController.php:149
+msgid "El usuario no se ha podido eliminar, por favor intentalo de nuevo."
+msgstr "The user could not be deleted, please try again."
+
+#: ./src/Controller/UserController.php:182
+msgid "Alias de usuario o contraseña incorrecta."
+msgstr "Incorrect username or password."
+
+#: ./src/Model/Table/AddressTable.php:57
+msgid "El campo provincia es requerido."
+msgstr "The province field is required."
+
+#: ./src/Model/Table/AddressTable.php:58
+msgid "La provincia no puede ser vacía."
+msgstr "The province cannot be empty."
+
+#: ./src/Model/Table/AddressTable.php:62
+msgid "La provincia debe contener solo caracteres alfabéticos y espacios."
+msgstr "The province must contain only alphabetic characters and spaces."
+
+#: ./src/Model/Table/AddressTable.php:67
+msgid "La provincia debe tener mínimo 3 caracteres."
+msgstr "The province must have a minimum of 3 characters."
+
+#: ./src/Model/Table/AddressTable.php:72
+msgid "La provincia debe tener máximo 30 caracteres."
+msgstr "The province must have a maximum of 30 characters."
+
+#: ./src/Model/Table/AddressTable.php:76
+msgid "El campo código postal es requerido."
+msgstr "The postal code field is required."
+
+#: ./src/Model/Table/AddressTable.php:80
+msgid "Introduce un código postal con un formato correcto."
+msgstr "Please enter a correctly formatted postal code."
+
+#: ./src/Model/Table/AddressTable.php:85
+msgid "El código postal debe tener mínimo 5 caracteres."
+msgstr "The zip code must have a minimum of 5 characters."
+
+#: ./src/Model/Table/AddressTable.php:90
+msgid "El campo ciudad es requerido."
+msgstr "The city field is required."
+
+#: ./src/Model/Table/AddressTable.php:91
+msgid "La ciudad no puede ser vacío."
+msgstr "The city cannot be empty."
+
+#: ./src/Model/Table/AddressTable.php:95
+msgid "La ciudad debe contener solo caracteres alfabéticos y espacios."
+msgstr "The city must contain only alphabetic characters and spaces."
+
+#: ./src/Model/Table/AddressTable.php:100
+msgid "La ciudad debe tener mínimo 3 caracteres."
+msgstr "The city must have a minimum of 3 characters."
+
+#: ./src/Model/Table/AddressTable.php:105
+msgid "La ciudad debe tener máximo 100 caracteres."
+msgstr "The city must have a maximum of 100 characters."
+
+#: ./src/Model/Table/AddressTable.php:109
+msgid "El campo país es requerido."
+msgstr "The country field is required."
+
+#: ./src/Model/Table/AddressTable.php:110
+msgid "El país no puede ser vacío."
+msgstr "The country cannot be empty."
+
+#: ./src/Model/Table/AddressTable.php:114
+msgid "El país debe contener solo caracteres alfabéticos y espacios."
+msgstr "The country must contain only alphabetic characters and spaces."
+
+#: ./src/Model/Table/AddressTable.php:119
+msgid "El país debe tener mínimo 3 caracteres."
+msgstr "The country must have a minimum of 3 characters."
+
+#: ./src/Model/Table/AddressTable.php:124
+msgid "El país debe tener máximo 100 caracteres."
+msgstr "The country must have a maximum of 100 characters."
+
+#: ./src/Model/Table/AddressTable.php:128
+msgid "El campo calle es requerido."
+msgstr "The street field is required."
+
+#: ./src/Model/Table/AddressTable.php:129
+msgid "La calle no puede ser vacía."
+msgstr "The street cannot be empty."
+
+#: ./src/Model/Table/AddressTable.php:133
+msgid "La calle debe contener solo caracteres alfabéticos, espacios y algunos símbolos [. , º ]."
+msgstr "The string must contain only alphabetic characters, spaces, and some symbols [. , º ]."
+
+#: ./src/Model/Table/AddressTable.php:138
+msgid "La calle debe tener mínimo 3 caracteres."
+msgstr "The street must have a minimum of 3 characters."
+
+#: ./src/Model/Table/AddressTable.php:143
+msgid "La calle debe tener máximo 100 caracteres."
+msgstr "The street must have a minimum of 3 characters."
+
+#: ./src/Model/Table/AnimalAdoptionTable.php:66
+#: ./src/Model/Table/AnimalShelterTable.php:66
+#: ./src/Model/Table/EventTable.php:100
+msgid "El campo fecha de inicio es requerido."
+msgstr "The start date field is required."
+
+#: ./src/Model/Table/AnimalAdoptionTable.php:67
+#: ./src/Model/Table/AnimalShelterTable.php:67
+msgid "El campo de la fecha de inicio no puede estar vacío."
+msgstr "The start date field cannot be empty."
+
+#: ./src/Model/Table/AnimalAdoptionTable.php:82
+#: ./src/Model/Table/AnimalShelterTable.php:82
+msgid "El valor introducido en la fecha de fin puede ser vacío."
+msgstr "The value entered in the end date can be empty."
+
+#: ./src/Model/Table/AnimalAdoptionTable.php:110
+#: ./src/Model/Table/AnimalShelterTable.php:110
+msgid "El identificador del usuario es un número."
+msgstr "The user identifier is a number."
+
+#: ./src/Model/Table/AnimalAdoptionTable.php:111
+#: ./src/Model/Table/AnimalShelterTable.php:111
+#: ./src/Model/Table/CommentTable.php:115
+#: ./src/Model/Table/EventTable.php:146
+#: ./src/Model/Table/FeatureUserTable.php:67
+#: ./src/Model/Table/PublicationAdoptionTable.php:91
+#: ./src/Model/Table/PublicationHelpTable.php:84
+#: ./src/Model/Table/PublicationStrayAddressTable.php:85
+#: ./src/Model/Table/PublicationStrayTable.php:100
+msgid "El identificador de usuario no puede ser vacío."
+msgstr "The user identifier cannot be empty."
+
+#: ./src/Model/Table/AnimalAdoptionTable.php:115
+#: ./src/Model/Table/AnimalShelterTable.php:115
+msgid "El identificador de animal no puede ser vacío."
+msgstr "The user identifier cannot be empty."
+
+#: ./src/Model/Table/AnimalTable.php:58
+#: ./src/Model/Table/UserTable.php:108
+msgid "El campo nombre es requerido."
+msgstr "The animal identifier cannot be empty."
+
+#: ./src/Model/Table/AnimalTable.php:59
+msgid "El nombre del animal no puede ser vacío."
+msgstr "The name field is required."
+
+#: ./src/Model/Table/AnimalTable.php:63
+#: ./src/Model/Table/UserTable.php:113
+msgid "Introduce un nombre con caracteres alfabéticos y espacios."
+msgstr "The name of the animal cannot be empty."
+
+#: ./src/Model/Table/AnimalTable.php:68
+#: ./src/Model/Table/UserTable.php:118
+msgid "El nombre debe tener mínimo 3 caracteres."
+msgstr "Enter a name with alphabetic characters and spaces."
+
+#: ./src/Model/Table/AnimalTable.php:73
+msgid "El nombre debe tener máximo 30 caracteres."
+msgstr "The name must have a minimum of 3 characters."
+
+#: ./src/Model/Table/AnimalTable.php:78
+#: ./src/Model/Table/PublicationStrayAddressTable.php:105
+#: ./src/Model/Table/PublicationStrayTable.php:77
+msgid "La imagen puede ser vacía."
+msgstr "The image can be empty."
+
+#: ./src/Model/Table/AnimalTable.php:95
+#: ./src/Model/Table/FosterListUserTable.php:70
+msgid "El campo especie es requerido."
+msgstr "The species field is required."
+
+#: ./src/Model/Table/AnimalTable.php:96
+#: ./src/Model/Table/FosterListUserTable.php:71
+msgid "La especie no puede ser vacía."
+msgstr "The species cannot be empty."
+
+#: ./src/Model/Table/AnimalTable.php:100
+msgid "La especie debe ser una de las existentes."
+msgstr "The species must be one of the existing ones."
+
+#: ./src/Model/Table/AnimalTable.php:104
+msgid "El chip puede ser vacío."
+msgstr "The chip can be empty."
+
+#: ./src/Model/Table/AnimalTable.php:108
+msgid "Chip debe ser sí o no."
+msgstr "Chip must be yes or no."
+
+#: ./src/Model/Table/AnimalTable.php:112
+msgid "El campo sexo es requerido."
+msgstr "The sex field is required."
+
+#: ./src/Model/Table/AnimalTable.php:113
+msgid "El sexo no puede ser vacío."
+msgstr "Sex cannot be empty."
+
+#: ./src/Model/Table/AnimalTable.php:117
+msgid "El sexo debe ser de uno de los valores existentes."
+msgstr "The sex must be one of the existing values."
+
+#: ./src/Model/Table/AnimalTable.php:126
+msgid "Introduce una raza con caracteres alfabéticos y espacios."
+msgstr "Enter a breed with alphabetic characters and spaces."
+
+#: ./src/Model/Table/AnimalTable.php:131
+msgid "La raza debe tener máximo 100 caracteres."
+msgstr "The breed must have a maximum of 100 characters."
+
+#: ./src/Model/Table/AnimalTable.php:135
+msgid "La edad debe ser un número."
+msgstr "Age must be a number."
+
+#: ./src/Model/Table/AnimalTable.php:136
+msgid "La edad puede ser vacía."
+msgstr "Age can be empty."
+
+#: ./src/Model/Table/AnimalTable.php:144
+msgid "La edad máxima es 200 años."
+msgstr "The maximum age is 200 years."
+
+#: ./src/Model/Table/AnimalTable.php:147
+msgid "La raza puede ser vacía."
+msgstr "The race can be empty."
+
+#: ./src/Model/Table/AnimalTable.php:151
+msgid "La información debe contener solo caracteres alfabéticos, espacios y algunos símbolos [. , º ]."
+msgstr "The information must contain only alphabetic characters, spaces and some symbols [. , º ]."
+
+#: ./src/Model/Table/AnimalTable.php:156
+msgid "La información debe tener máximo 300 caracteres."
+msgstr "The information must have a maximum of 300 characters."
+
+#: ./src/Model/Table/AnimalTable.php:160
+msgid "El campo estado es requerido."
+msgstr "The status field is required."
+
+#: ./src/Model/Table/AnimalTable.php:165
+msgid "El estado debe ser de uno de los valores existentes."
+msgstr "The state must be one of the existing values."
+
+#: ./src/Model/Table/CommentTable.php:76
+msgid "El campo fecha de comentario es requerido."
+msgstr "The comment date field is required."
+
+#: ./src/Model/Table/CommentTable.php:77
+#: ./src/Model/Table/MessageTable.php:77
+#: ./src/Model/Table/PublicationStrayAddressTable.php:89
+#: ./src/Model/Table/PublicationTable.php:59
+msgid "La fecha no puede ser vacía."
+msgstr "The date cannot be empty."
+
+#: ./src/Model/Table/CommentTable.php:91
+#: ./src/Model/Table/PublicationTable.php:95
+msgid "El campo mensaje es requerido."
+msgstr "The message field is required."
+
+#: ./src/Model/Table/CommentTable.php:92
+#: ./src/Model/Table/PublicationTable.php:96
+msgid "El mensaje no puede ser vacío."
+msgstr "The message cannot be empty."
+
+#: ./src/Model/Table/CommentTable.php:96
+#: ./src/Model/Table/EventTable.php:90
+#: ./src/Model/Table/PublicationTable.php:100
+msgid "El mensaje debe contener solo caracteres alfabéticos, espacios y algunos símbolos [. , º ]."
+msgstr "El mensaje debe contener solo caracteres alfabéticos, espacios y algunos símbolos [. , º ]."
+
+#: ./src/Model/Table/CommentTable.php:101
+#: ./src/Model/Table/PublicationTable.php:105
+msgid "El mensaje debe tener mínimo 3 caracteres."
+msgstr "The message must have a minimum of 3 characters."
+
+#: ./src/Model/Table/CommentTable.php:106
+#: ./src/Model/Table/EventTable.php:95
+msgid "El mensaje debe tener máximo 300 caracteres."
+msgstr "The message must have a maximum of 300 characters."
+
+#: ./src/Model/Table/CommentTable.php:110
+msgid "El índice de publicación debe ser un entero."
+msgstr "The publication index must be an integer."
+
+#: ./src/Model/Table/CommentTable.php:111
+#: ./src/Model/Table/PublicationAdoptionTable.php:74
+#: ./src/Model/Table/PublicationHelpTable.php:70
+#: ./src/Model/Table/PublicationStrayAddressTable.php:77
+#: ./src/Model/Table/PublicationStrayTable.php:73
+msgid "El identificador de publicación no puede ser vacío."
+msgstr "The publication identifier cannot be empty."
+
+#: ./src/Model/Table/CommentTable.php:114
+#: ./src/Model/Table/FeatureUserTable.php:66
+#: ./src/Model/Table/FosterListUserTable.php:66
+#: ./src/Model/Table/PublicationAdoptionTable.php:90
+#: ./src/Model/Table/PublicationHelpTable.php:83
+#: ./src/Model/Table/PublicationStrayAddressTable.php:84
+#: ./src/Model/Table/PublicationStrayTable.php:99
+msgid "El índice del usuario debe ser un entero."
+msgstr "The user index must be an integer."
+
+#: ./src/Model/Table/EventTable.php:67
+#: ./src/Model/Table/MessageTable.php:92
+#: ./src/Model/Table/PublicationTable.php:75
+msgid "El campo título es requerido."
+msgstr "The title field is required."
+
+#: ./src/Model/Table/EventTable.php:71
+#: ./src/Model/Table/MessageTable.php:97
+#: ./src/Model/Table/PublicationTable.php:80
+msgid "El título debe contener solo caracteres alfabéticos, espacios y algunos símbolos [. , º ]."
+msgstr "The title must contain only alphabetic characters, spaces, and some symbols [. , º ]."
+
+#: ./src/Model/Table/EventTable.php:73
+#: ./src/Model/Table/MessageTable.php:93
+#: ./src/Model/Table/PublicationTable.php:76
+msgid "El título no puede ser vacío."
+msgstr "The title cannot be empty."
+
+#: ./src/Model/Table/EventTable.php:77
+#: ./src/Model/Table/MessageTable.php:102
+#: ./src/Model/Table/PublicationTable.php:85
+msgid "El título debe tener mínimo 3 caracteres."
+msgstr "The title must have a minimum of 3 characters."
+
+#: ./src/Model/Table/EventTable.php:82
+#: ./src/Model/Table/MessageTable.php:107
+#: ./src/Model/Table/PublicationTable.php:90
+msgid "El título debe tener máximo 100 caracteres."
+msgstr "The title must have a maximum of 100 characters."
+
+#: ./src/Model/Table/EventTable.php:86
+msgid "El mensaje puede ser vacío"
+msgstr "The message can be empty"
+
+#: ./src/Model/Table/EventTable.php:101
+msgid "La fecha de inicio no puede ser vacía."
+msgstr "The start date cannot be empty."
+
+#: ./src/Model/Table/EventTable.php:116
+msgid "El campo fecha de fin es requerido."
+msgstr "The end date field is required."
+
+#: ./src/Model/Table/EventTable.php:117
+msgid "La fecha de fin no puede ser vacía."
+msgstr "The end date cannot be empty."
+
+#: ./src/Model/Table/EventTable.php:145
+msgid "El id del usuario debe ser un número entero."
+msgstr "The user id must be an integer."
+
+#: ./src/Model/Table/EventTable.php:149
+msgid "El id de la dirección debe ser un número entero."
+msgstr "The address id must be an integer."
+
+#: ./src/Model/Table/EventTable.php:150
+#: ./src/Model/Table/PublicationStrayAddressTable.php:81
+#: ./src/Model/Table/UserTable.php:248
+msgid "El identificador de dirección no puede ser vacío."
+msgstr "The address identifier cannot be empty."
+
+#: ./src/Model/Table/FeatureTable.php:65
+msgid "La clave de la característica debe ser un escalar."
+msgstr "The feature key must be a scalar."
+
+#: ./src/Model/Table/FeatureTable.php:66
+msgid "El campo clave es requerido."
+msgstr "The key field is required."
+
+#: ./src/Model/Table/FeatureTable.php:67
+msgid "La clave no puede ser vacía."
+msgstr "The key cannot be empty."
+
+#: ./src/Model/Table/FeatureTable.php:72
+msgid "La clave debe tener mínimo 3 caracteres."
+msgstr "The key must have a minimum of 3 characters."
+
+#: ./src/Model/Table/FeatureTable.php:84
+msgid "La clave debe tener máximo 100 caracteres."
+msgstr "The key must have a maximum of 100 characters."
+
+#: ./src/Model/Table/FeatureUserTable.php:70
+msgid "El índice de la característica debe ser un entero."
+msgstr "The feature index must be an integer."
+
+#: ./src/Model/Table/FeatureUserTable.php:71
+msgid "El identificador de característica no puede ser vacío."
+msgstr "The feature identifier cannot be empty."
+
+#: ./src/Model/Table/FeatureUserTable.php:74
+msgid "El valor debe ser un escalar."
+msgstr "The value must be a scalar."
+
+#: ./src/Model/Table/FeatureUserTable.php:79
+msgid "El valor debe tener máximo 100 caracteres."
+msgstr "The value must have a maximum of 100 characters."
+
+#: ./src/Model/Table/FosterListUserTable.php:63
+msgid "El índice de la lista de adopción debe ser un entero."
+msgstr "The adoption list index must be an integer."
+
+#: ./src/Model/Table/FosterListUserTable.php:75
+msgid "La especie debe ser una de las opciones."
+msgstr "The species must be one of the options."
+
+#: ./src/Model/Table/FosterListUserTable.php:78
+msgid "La fecha de la lista de adopción puede ser vacía."
+msgstr "The adoption list date can be empty."
+
+#: ./src/Model/Table/MessageTable.php:76
+msgid "La fecha es requerida."
+msgstr "The date is required."
+
+#: ./src/Model/Table/MessageTable.php:111
+msgid "El campo contenido es requerido."
+msgstr "The content field is required."
+
+#: ./src/Model/Table/MessageTable.php:112
+msgid "El contenido no puede ser vacío."
+msgstr "The content cannot be empty."
+
+#: ./src/Model/Table/MessageTable.php:116
+msgid "El contenido debe contener solo caracteres alfabéticos, espacios y algunos símbolos [. , º ]."
+msgstr "The content must contain only alphabetic characters, spaces, and some symbols [. , º ]."
+
+#: ./src/Model/Table/MessageTable.php:121
+msgid "El contenido debe tener mínimo 3 caracteres."
+msgstr "The content must have a minimum of 3 characters."
+
+#: ./src/Model/Table/MessageTable.php:126
+msgid "El contenido debe tener máximo 700 caracteres."
+msgstr "The content must have a maximum of 700 characters."
+
+#: ./src/Model/Table/MessageTable.php:130
+msgid "El id del emisor debe ser un número entero."
+msgstr "The identifier id must be an integer."
+
+#: ./src/Model/Table/MessageTable.php:131
+msgid "El identificador de emisor no puede ser vacío."
+msgstr "The identifier identifier cannot be empty."
+
+#: ./src/Model/Table/MessageTable.php:134
+msgid "El id del receptor debe ser un número entero."
+msgstr "The receiver id must be an integer."
+
+#: ./src/Model/Table/MessageTable.php:135
+msgid "El identificador de receptor no puede ser vacío."
+msgstr "The receiver identifier cannot be empty."
+
+#: ./src/Model/Table/MessageTable.php:138
+msgid "Leído no puede ser vacío."
+msgstr "Readed cannot be empty."
+
+#: ./src/Model/Table/MessageTable.php:139
+msgid "El campo leído es requerido."
+msgstr "The readed field is required."
+
+#: ./src/Model/Table/MessageTable.php:144
+msgid "Leído debe ser sí o no."
+msgstr "Readed must be yes or no."
+
+#: ./src/Model/Table/PublicationAdoptionTable.php:73
+#: ./src/Model/Table/PublicationHelpTable.php:69
+#: ./src/Model/Table/PublicationStrayAddressTable.php:76
+#: ./src/Model/Table/PublicationStrayTable.php:72
+msgid "El índice de la publicación debe ser un entero."
+msgstr "The publication identifier must be an integer."
+
+#: ./src/Model/Table/PublicationAdoptionTable.php:78
+msgid "El índice del animal debe ser un entero."
+msgstr "The animal identifier must be an integer."
+
+#: ./src/Model/Table/PublicationAdoptionTable.php:81
+#: ./src/Model/Table/PublicationStrayTable.php:90
+msgid "El campo urgente es requerido."
+msgstr "The urgent field is required."
+
+#: ./src/Model/Table/PublicationAdoptionTable.php:82
+msgid "Urgente no puede ser vacía."
+msgstr "Urgent cannot be empty."
+
+#: ./src/Model/Table/PublicationAdoptionTable.php:86
+#: ./src/Model/Table/PublicationStrayTable.php:95
+msgid "Urgente debe ser sí o no."
+msgstr "Urgent must be yes or no."
+
+#: ./src/Model/Table/PublicationHelpTable.php:74
+msgid "El campo categoría es requeria."
+msgstr "The category field is required."
+
+#: ./src/Model/Table/PublicationHelpTable.php:75
+msgid "La categoría no puede ser vacía."
+msgstr "The category cannot be empty."
+
+#: ./src/Model/Table/PublicationHelpTable.php:79
+msgid "La categoría debe ser una de las existentes."
+msgstr "The category must be one of the existing ones."
+
+#: ./src/Model/Table/PublicationStrayAddressTable.php:80
+msgid "El índice de la dirección debe ser un entero."
+msgstr "The address index must be an integer."
+
+#: ./src/Model/Table/PublicationStrayAddressTable.php:88
+msgid "La fecha de publicación es requerido."
+msgstr "The publication date is required."
+
+#: ./src/Model/Table/PublicationStrayTable.php:91
+msgid "Urgente no puede ser vacío."
+msgstr "Urgent cannot be empty."
+
+#: ./src/Model/Table/PublicationTable.php:58
+msgid "El campo fecha de publicación es requerido."
+msgstr "The publication date field is required."
+
+#: ./src/Model/Table/PublicationTable.php:74
+msgid "El título debe ser un escalar."
+msgstr "The title must be a scalar."
+
+#: ./src/Model/Table/PublicationTable.php:94
+msgid "El mensaje debe ser un escalar."
+msgstr "The message must be a scalar."
+
+#: ./src/Model/Table/PublicationTable.php:110
+msgid "El mensaje debe tener máximo 700 caracteres."
+msgstr "The message must have a maximum of 700 characters."
+
+#: ./src/Model/Table/UserTable.php:75
+msgid "El campo DNI/CIF/NIE es requerido."
+msgstr "The DNI/CIF/NIE field is required."
+
+#: ./src/Model/Table/UserTable.php:76
+msgid "El DNI/NIE/CIF no puede ser vacío."
+msgstr "The DNI/NIE/CIF cannot be empty."
+
+#: ./src/Model/Table/UserTable.php:81
+msgid "Introduce un DNI/NIE/CIF en el formato correcto."
+msgstr "Enter a The DNI/NIE/CIF in a correct format."
+
+#: ./src/Model/Table/UserTable.php:92
+msgid "El DNI/NIE/CIF debe tener mínimo 8 caracteres."
+msgstr "The DNI/NIE/CIF must have a minimum of 8 characters."
+
+#: ./src/Model/Table/UserTable.php:104
+msgid "El DNI/NIE/CIF debe tener máximo 9 caracteres."
+msgstr "The DNI/NIE/CIF must have a maximum of 9 characters."
+
+#: ./src/Model/Table/UserTable.php:109
+msgid "El nombre no puede ser vacío."
+msgstr "The name cannot be empty."
+
+#: ./src/Model/Table/UserTable.php:123
+msgid "El nombre debe tener máximo 100 caracteres."
+msgstr "El nombre debe tener máximo 100 caracteres."
+
+#: ./src/Model/Table/UserTable.php:127
+msgid "El apellido puede ser vacío."
+msgstr "The last name can be empty."
+
+#: ./src/Model/Table/UserTable.php:131
+msgid "Introduce un apellido con caracteres alfabéticos y espacios."
+msgstr "Enter a last name with alphabetic characters and spaces."
+
+#: ./src/Model/Table/UserTable.php:136
+msgid "El apellido debe tener máximo 100 caracteres."
+msgstr "The last name must have a maximum of 100 characters."
+
+#: ./src/Model/Table/UserTable.php:140
+msgid "El campo alias de usuario es requerido."
+msgstr "El apellido debe tener máximo 100 caracteres."
+
+#: ./src/Model/Table/UserTable.php:141
+msgid "El alias de usuario no puede ser vacío."
+msgstr "The username field is required."
+
+#: ./src/Model/Table/UserTable.php:145
+msgid "Introduce un alias de usuario alfanumérico."
+msgstr "Enter an alphanumeric username."
+
+#: ./src/Model/Table/UserTable.php:150
+msgid "El alias de usuario debe tener mínimo 3 caracteres."
+msgstr "The username must have a minimum of 3 characters."
+
+#: ./src/Model/Table/UserTable.php:155
+msgid "El alias de usuario debe tener máximo 30 caracteres."
+msgstr "The username must have a maximum of 30 characters."
+
+#: ./src/Model/Table/UserTable.php:165
+msgid "El campo contraseña es requerido."
+msgstr "The password field is required."
+
+#: ./src/Model/Table/UserTable.php:170
+msgid "La contraseña debe tener mínimo 3 caracteres."
+msgstr "The password must have a minimum of 3 characters."
+
+#: ./src/Model/Table/UserTable.php:175
+msgid "La contraseña debe tener máximo 100 caracteres."
+msgstr "The password must have a maximum of 100 characters."
+
+#: ./src/Model/Table/UserTable.php:179
+msgid "El campo email es requerido."
+msgstr "The email field is required."
+
+#: ./src/Model/Table/UserTable.php:180
+msgid "El email no puede ser vacío."
+msgstr "The email cannot be empty."
+
+#: ./src/Model/Table/UserTable.php:191
+msgid "Debe seguir un formato de email."
+msgstr "You must follow an email format."
+
+#: ./src/Model/Table/UserTable.php:195
+#: ./src/Model/Table/UserTable.php:201
+msgid "Introduce un formato de teléfono correcto."
+msgstr "Enter a correct phone format."
+
+#: ./src/Model/Table/UserTable.php:196
+msgid "El campo teléfono es requerido."
+msgstr "The phone field is required."
+
+#: ./src/Model/Table/UserTable.php:197
+msgid "El teléfono no puede ser vacío."
+msgstr "The phone cannot be empty."
+
+#: ./src/Model/Table/UserTable.php:206
+msgid "El teléfono debe tener mínimo 9 caracteres."
+msgstr "The phone must have a minimum of 9 characters."
+
+#: ./src/Model/Table/UserTable.php:218
+msgid "El teléfono debe tener máximo 15 caracteres."
+msgstr "The phone must have a maximum of 15 characters."
+
+#: ./src/Model/Table/UserTable.php:222
+msgid "El campo rol es requerido."
+msgstr "The role field is required."
+
+#: ./src/Model/Table/UserTable.php:223
+msgid "El rol no puede ser vacío."
+msgstr "The role cannot be empty."
+
+#: ./src/Model/Table/UserTable.php:227
+msgid "El rol de usuario debe ser estándar, protectora o administrador."
+msgstr "The user role must be standard, protector, or administrator."
+
+#: ./src/Model/Table/UserTable.php:231
+msgid "El campo fecha de nacimiento es requerido."
+msgstr "The date of birth field is required."
+
+#: ./src/Model/Table/UserTable.php:232
+msgid "La fecha de nacimiento no puede ser vacía."
+msgstr "The date of birth cannot be empty."
+
+#: ./templates/Address/add.php:14
+#: ./templates/Animal/add.php:12
+#: ./templates/Animal/add.php:115
+#: ./templates/Animal/view.php:25
+#: ./templates/AnimalAdoption/add.php:14
+#: ./templates/AnimalAdoption/add.php:69
+#: ./templates/AnimalAdoption/view.php:18
+#: ./templates/AnimalShelter/add.php:15
+#: ./templates/AnimalShelter/add.php:60
+#: ./templates/AnimalShelter/view.php:18
+#: ./templates/Comment/add.php:11
+#: ./templates/Event/add.php:12
+#: ./templates/Event/add.php:29
+#: ./templates/Event/add.php:82
+#: ./templates/Event/edit.php:25
+#: ./templates/Event/view.php:27
+#: ./templates/Feature/add.php:12
+#: ./templates/Feature/add.php:40
+#: ./templates/FosterList/add.php:21
+#: ./templates/FosterListUser/add.php:12
+#: ./templates/Message/add.php:15
+#: ./templates/PublicationAdoption/add.php:15
+#: ./templates/PublicationHelp/add.php:12
+#: ./templates/PublicationStray/add.php:14
+#: ./templates/PublicationStrayAddress/add.php:16
+#: ./templates/PublicationStrayAddress/add.php:77
+#: ./templates/User/add.php:15
+msgid "Añadir"
+msgstr "Add"
+
+#: ./templates/Address/add.php:18
+#: ./templates/Address/edit.php:18
+#: ./templates/Address/view.php:16
+#: ./templates/Animal/add.php:16
+#: ./templates/Animal/edit.php:17
+#: ./templates/Animal/view.php:17
+#: ./templates/AnimalAdoption/add.php:18
+#: ./templates/AnimalAdoption/edit.php:19
+#: ./templates/AnimalAdoption/view.php:17
+#: ./templates/AnimalShelter/add.php:19
+#: ./templates/AnimalShelter/edit.php:19
+#: ./templates/AnimalShelter/view.php:17
+#: ./templates/Comment/add.php:15
+#: ./templates/Comment/edit.php:18
+#: ./templates/Event/add.php:16
+#: ./templates/Event/edit.php:16
+#: ./templates/Event/view.php:23
+#: ./templates/Feature/add.php:16
+#: ./templates/Feature/edit.php:16
+#: ./templates/FosterList/add.php:25
+#: ./templates/FosterList/view.php:24
+#: ./templates/FosterListUser/add.php:16
+#: ./templates/FosterListUser/edit.php:17
+#: ./templates/FosterListUser/view.php:23
+#: ./templates/Message/add.php:19
+#: ./templates/Message/view.php:22
+#: ./templates/PublicationAdoption/add.php:19
+#: ./templates/PublicationAdoption/edit.php:20
+#: ./templates/PublicationAdoption/view.php:23
+#: ./templates/PublicationHelp/add.php:16
+#: ./templates/PublicationHelp/edit.php:16
+#: ./templates/PublicationHelp/view.php:23
+#: ./templates/PublicationStray/add.php:18
+#: ./templates/PublicationStray/edit.php:16
+#: ./templates/PublicationStray/view.php:22
+#: ./templates/PublicationStrayAddress/add.php:20
+#: ./templates/PublicationStrayAddress/edit.php:20
+#: ./templates/PublicationStrayAddress/view.php:23
+#: ./templates/User/add.php:19
+#: ./templates/User/edit.php:20
+#: ./templates/User/view.php:18
+msgid "Listar"
+msgstr "List"
+
+#: ./templates/Address/add.php:31
+#: ./templates/User/add.php:32
+msgid "Registrate"
+msgstr "Register"
+
+#: ./templates/Address/add.php:32
+#: ./templates/User/add.php:33
+msgid "Introduce tus datos para"
+msgstr "Enter your data for"
+
+#: ./templates/Address/add.php:32
+#: ./templates/User/add.php:33
+msgid "registrate"
+msgstr "register"
+
+#: ./templates/Address/add.php:41
+#: ./templates/Address/edit.php:52
+#: ./templates/User/add.php:42
+#: ./templates/User/edit.php:54
+#: ./templates/User/login.php:48
+msgid "DNI/NIE/CIF"
+msgstr "DNI/NIE/CIF"
+
+#: ./templates/Address/add.php:44
+#: ./templates/Address/edit.php:55
+#: ./templates/User/add.php:45
+#: ./templates/User/edit.php:57
+msgid "Alias usuario"
+msgstr "Username"
+
+#: ./templates/Address/add.php:49
+#: ./templates/Address/edit.php:60
+#: ./templates/Address/view.php:58
+#: ./templates/Animal/edit.php:49
+#: ./templates/User/add.php:50
+#: ./templates/User/edit.php:62
+#: ./templates/User/view.php:81
+msgid "Nombre"
+msgstr "Name"
+
+#: ./templates/Address/add.php:52
+#: ./templates/Address/edit.php:63
+#: ./templates/Address/view.php:63
+#: ./templates/User/add.php:53
+#: ./templates/User/edit.php:65
+#: ./templates/User/view.php:86
+msgid "Apellido"
+msgstr "Lastname"
+
+#: ./templates/Address/add.php:57
+#: ./templates/Address/edit.php:68
+#: ./templates/User/add.php:58
+#: ./templates/User/edit.php:70
+#: ./templates/User/login.php:53
+#: ./templates/User/view.php:72
+msgid "Contraseña"
+msgstr "Password"
+
+#: ./templates/Address/add.php:60
+#: ./templates/Address/edit.php:71
+#: ./templates/Address/view.php:73
+#: ./templates/User/add.php:61
+#: ./templates/User/edit.php:73
+#: ./templates/User/view.php:101
+msgid "Teléfono"
+msgstr "Phone"
+
+#: ./templates/Address/add.php:64
+#: ./templates/Address/edit.php:75
+#: ./templates/Address/view.php:68
+#: ./templates/User/add.php:65
+#: ./templates/User/edit.php:77
+#: ./templates/User/view.php:91
+msgid "Email"
+msgstr "Email"
+
+#: ./templates/Address/add.php:69
+#: ./templates/Address/edit.php:93
+#: ./templates/Address/view.php:78
+#: ./templates/Event/add.php:56
+#: ./templates/Event/edit.php:76
+#: ./templates/Event/view.php:83
+#: ./templates/FosterList/view.php:52
+#: ./templates/PublicationStrayAddress/add.php:46
+#: ./templates/PublicationStrayAddress/edit.php:68
+#: ./templates/PublicationStrayAddress/view.php:78
+#: ./templates/User/add.php:75
+#: ./templates/User/edit.php:100
+#: ./templates/User/view.php:106
+msgid "País"
+msgstr "Country"
+
+#: ./templates/Address/add.php:72
+#: ./templates/Address/edit.php:96
+#: ./templates/Address/view.php:83
+#: ./templates/Event/add.php:59
+#: ./templates/Event/edit.php:79
+#: ./templates/Event/view.php:88
+#: ./templates/FosterList/view.php:57
+#: ./templates/PublicationStrayAddress/add.php:49
+#: ./templates/PublicationStrayAddress/edit.php:71
+#: ./templates/PublicationStrayAddress/view.php:83
+#: ./templates/User/add.php:78
+#: ./templates/User/edit.php:103
+#: ./templates/User/view.php:111
+msgid "Provincia"
+msgstr "Province"
+
+#: ./templates/Address/add.php:77
+#: ./templates/Address/edit.php:101
+#: ./templates/Address/view.php:88
+#: ./templates/Address/view.php:93
+#: ./templates/Event/add.php:64
+#: ./templates/Event/edit.php:84
+#: ./templates/Event/view.php:93
+#: ./templates/FosterList/view.php:62
+#: ./templates/PublicationStrayAddress/add.php:54
+#: ./templates/PublicationStrayAddress/edit.php:76
+#: ./templates/PublicationStrayAddress/view.php:88
+#: ./templates/User/add.php:83
+#: ./templates/User/edit.php:108
+#: ./templates/User/view.php:116
+msgid "Ciudad"
+msgstr "City"
+
+#: ./templates/Address/add.php:80
+#: ./templates/Address/edit.php:104
+#: ./templates/Event/add.php:67
+#: ./templates/Event/edit.php:87
+#: ./templates/Event/view.php:98
+#: ./templates/FosterList/view.php:67
+#: ./templates/PublicationStrayAddress/add.php:57
+#: ./templates/PublicationStrayAddress/edit.php:79
+#: ./templates/PublicationStrayAddress/view.php:93
+#: ./templates/User/add.php:86
+#: ./templates/User/edit.php:111
+#: ./templates/User/view.php:121
+msgid "Calle"
+msgstr "Street"
+
+#: ./templates/Address/add.php:83
+#: ./templates/Address/edit.php:107
+#: ./templates/Address/view.php:98
+#: ./templates/Event/add.php:70
+#: ./templates/Event/edit.php:90
+#: ./templates/Event/view.php:103
+#: ./templates/FosterList/view.php:72
+#: ./templates/PublicationStrayAddress/add.php:60
+#: ./templates/PublicationStrayAddress/edit.php:82
+#: ./templates/PublicationStrayAddress/view.php:98
+#: ./templates/User/add.php:89
+#: ./templates/User/edit.php:114
+#: ./templates/User/view.php:126
+msgid "Código Postal"
+msgstr "Postal Code"
+
+#: ./templates/Address/add.php:87
+#: ./templates/User/add.php:147
+#: ./templates/User/login.php:25
+#: ./templates/User/login.php:58
+msgid "Registrarse"
+msgstr "Register"
+
+#: ./templates/Address/edit.php:14
+#: ./templates/Address/edit.php:43
+#: ./templates/Address/edit.php:110
+#: ./templates/Address/view.php:25
+#: ./templates/Animal/edit.php:13
+#: ./templates/Animal/edit.php:30
+#: ./templates/Animal/edit.php:127
+#: ./templates/Animal/view.php:27
+#: ./templates/AnimalAdoption/edit.php:15
+#: ./templates/AnimalAdoption/edit.php:33
+#: ./templates/AnimalAdoption/edit.php:68
+#: ./templates/AnimalAdoption/view.php:19
+#: ./templates/AnimalShelter/edit.php:15
+#: ./templates/AnimalShelter/edit.php:33
+#: ./templates/AnimalShelter/edit.php:61
+#: ./templates/AnimalShelter/view.php:19
+#: ./templates/Comment/edit.php:14
+#: ./templates/Comment/edit.php:55
+#: ./templates/Event/edit.php:12
+#: ./templates/Event/edit.php:47
+#: ./templates/Event/edit.php:95
+#: ./templates/Event/view.php:30
+#: ./templates/Feature/edit.php:12
+#: ./templates/Feature/edit.php:29
+#: ./templates/Feature/edit.php:42
+#: ./templates/FosterListUser/edit.php:13
+#: ./templates/FosterListUser/edit.php:31
+#: ./templates/FosterListUser/edit.php:52
+#: ./templates/FosterListUser/view.php:27
+#: ./templates/PublicationAdoption/edit.php:16
+#: ./templates/PublicationAdoption/edit.php:69
+#: ./templates/PublicationAdoption/view.php:29
+#: ./templates/PublicationHelp/edit.php:12
+#: ./templates/PublicationHelp/edit.php:63
+#: ./templates/PublicationHelp/view.php:27
+#: ./templates/PublicationStray/edit.php:12
+#: ./templates/PublicationStray/edit.php:75
+#: ./templates/PublicationStray/view.php:28
+#: ./templates/PublicationStrayAddress/edit.php:15
+#: ./templates/PublicationStrayAddress/edit.php:85
+#: ./templates/PublicationStrayAddress/view.php:30
+#: ./templates/User/edit.php:16
+#: ./templates/User/edit.php:45
+#: ./templates/User/edit.php:171
+#: ./templates/User/view.php:26
+msgid "Editar"
+msgstr "Edit"
+
+#: ./templates/Address/edit.php:28
+#: ./templates/Address/view.php:26
+#: ./templates/Animal/edit.php:18
+#: ./templates/Animal/view.php:29
+#: ./templates/AnimalAdoption/edit.php:20
+#: ./templates/AnimalAdoption/view.php:20
+#: ./templates/AnimalShelter/edit.php:20
+#: ./templates/AnimalShelter/view.php:20
+#: ./templates/Event/edit.php:27
+#: ./templates/Event/view.php:32
+#: ./templates/Feature/edit.php:17
+#: ./templates/FosterList/view.php:29
+#: ./templates/FosterListUser/edit.php:18
+#: ./templates/FosterListUser/view.php:29
+#: ./templates/PublicationAdoption/edit.php:30
+#: ./templates/PublicationAdoption/view.php:30
+#: ./templates/PublicationHelp/edit.php:26
+#: ./templates/PublicationHelp/view.php:29
+#: ./templates/PublicationStray/edit.php:26
+#: ./templates/PublicationStray/view.php:30
+#: ./templates/PublicationStrayAddress/edit.php:30
+#: ./templates/PublicationStrayAddress/view.php:31
+#: ./templates/User/edit.php:29
+#: ./templates/User/view.php:27
+msgid "Eliminar"
+msgstr "Delete"
+
+#: ./templates/Address/edit.php:28
+#: ./templates/Address/view.php:26
+msgid "Estas seguro que quieres borrar al usuario {0}?"
+msgstr "Are you sure you want to delete user {0}?"
+
+#: ./templates/Address/edit.php:85
+#: ./templates/Address/index.php:26
+#: ./templates/User/edit.php:92
+#: ./templates/User/index.php:34
+msgid "estandar"
+msgstr "standar"
+
+#: ./templates/Address/edit.php:85
+#: ./templates/Address/index.php:26
+#: ./templates/AnimalShelter/add.php:32
+#: ./templates/User/edit.php:92
+#: ./templates/User/index.php:34
+msgid "protectora"
+msgstr "shelter"
+
+#: ./templates/Address/edit.php:85
+#: ./templates/Address/index.php:26
+#: ./templates/User/edit.php:92
+#: ./templates/User/index.php:34
+msgid "admin"
+msgstr "admin"
+
+#: ./templates/Address/edit.php:86
+#: ./templates/Address/view.php:103
+#: ./templates/User/edit.php:93
+#: ./templates/User/view.php:131
+msgid "Rol"
+msgstr "Role"
+
+#: ./templates/Address/index.php:14
+#: ./templates/Animal/index.php:15
+#: ./templates/AnimalAdoption/index.php:15
+#: ./templates/AnimalShelter/index.php:15
+#: ./templates/Feature/index.php:17
+#: ./templates/User/index.php:24
+msgid "LISTA"
+msgstr "LIST"
+
+#: ./templates/Address/index.php:15
+#: ./templates/User/index.php:25
+msgid "USUARIOS"
+msgstr "USERS"
+
+#: ./templates/Address/index.php:24
+#: ./templates/User/index.php:32
+msgid "Buscar por alias: "
+msgstr "Search for username: "
+
+#: ./templates/Address/index.php:28
+#: ./templates/User/index.php:36
+msgid "Buscar rol: "
+msgstr "Search rol: "
+
+#: ./templates/Address/index.php:29
+#: ./templates/Animal/index.php:44
+#: ./templates/AnimalAdoption/index.php:34
+#: ./templates/FosterList/index.php:39
+#: ./templates/FosterListUser/index.php:28
+#: ./templates/PublicationAdoption/index.php:38
+#: ./templates/PublicationHelp/index.php:38
+#: ./templates/PublicationStray/index.php:42
+#: ./templates/User/index.php:37
+msgid "Buscar"
+msgstr "Search"
+
+#: ./templates/Address/index.php:67
+#: ./templates/User/edit.php:30
+#: ./templates/User/index.php:74
+#: ./templates/User/view.php:28
+msgid "Estas seguro de querer eliminar el usuario {0}?"
+msgstr "Are you sure you want to delete user {0}?"
+
+#: ./templates/Address/index.php:83
+#: ./templates/Animal/index.php:122
+#: ./templates/AnimalAdoption/index.php:99
+#: ./templates/AnimalShelter/index.php:56
+#: ./templates/Feature/index.php:73
+#: ./templates/FosterList/index.php:81
+#: ./templates/FosterListUser/index.php:79
+#: ./templates/Message/index.php:82
+#: ./templates/PublicationAdoption/index.php:116
+#: ./templates/PublicationHelp/index.php:103
+#: ./templates/PublicationStray/index.php:120
+#: ./templates/PublicationStrayAddress/index.php:104
+#: ./templates/User/index.php:92
+msgid "primera"
+msgstr "First"
+
+#: ./templates/Address/index.php:84
+#: ./templates/Animal/index.php:123
+#: ./templates/AnimalAdoption/index.php:100
+#: ./templates/AnimalShelter/index.php:57
+#: ./templates/Feature/index.php:74
+#: ./templates/FosterList/index.php:82
+#: ./templates/FosterListUser/index.php:80
+#: ./templates/Message/index.php:83
+#: ./templates/PublicationAdoption/index.php:117
+#: ./templates/PublicationHelp/index.php:104
+#: ./templates/PublicationStray/index.php:121
+#: ./templates/PublicationStrayAddress/index.php:105
+#: ./templates/User/index.php:93
+msgid "anterior"
+msgstr "before"
+
+#: ./templates/Address/index.php:86
+#: ./templates/Animal/index.php:125
+#: ./templates/AnimalAdoption/index.php:102
+#: ./templates/AnimalShelter/index.php:59
+#: ./templates/Feature/index.php:76
+#: ./templates/FosterList/index.php:84
+#: ./templates/FosterListUser/index.php:82
+#: ./templates/Message/index.php:85
+#: ./templates/PublicationAdoption/index.php:119
+#: ./templates/PublicationHelp/index.php:106
+#: ./templates/PublicationStray/index.php:123
+#: ./templates/PublicationStrayAddress/index.php:107
+#: ./templates/User/index.php:95
+msgid "siguiente"
+msgstr "next"
+
+#: ./templates/Address/index.php:87
+#: ./templates/Animal/index.php:126
+#: ./templates/AnimalAdoption/index.php:103
+#: ./templates/AnimalShelter/index.php:60
+#: ./templates/Feature/index.php:77
+#: ./templates/FosterList/index.php:85
+#: ./templates/FosterListUser/index.php:83
+#: ./templates/Message/index.php:86
+#: ./templates/PublicationAdoption/index.php:120
+#: ./templates/PublicationHelp/index.php:107
+#: ./templates/PublicationStray/index.php:124
+#: ./templates/PublicationStrayAddress/index.php:108
+#: ./templates/User/index.php:96
+msgid "última"
+msgstr "Last"
+
+#: ./templates/Address/index.php:89
+#: ./templates/Animal/index.php:128
+#: ./templates/AnimalAdoption/index.php:105
+#: ./templates/AnimalShelter/index.php:62
+#: ./templates/Feature/index.php:79
+#: ./templates/FosterList/index.php:87
+#: ./templates/FosterListUser/index.php:85
+#: ./templates/Message/index.php:88
+#: ./templates/PublicationAdoption/index.php:122
+#: ./templates/PublicationHelp/index.php:109
+#: ./templates/PublicationStray/index.php:126
+#: ./templates/PublicationStrayAddress/index.php:110
+#: ./templates/User/index.php:98
+msgid "Página {{page}} de {{pages}}, mostrandese {{current}} de {{count}}."
+msgstr "Page {{page}} of {{pages}}, showing {{current}} of {{count}}."
+
+#: ./templates/Address/view.php:12
+#: ./templates/Animal/view.php:13
+#: ./templates/Event/view.php:19
+#: ./templates/FosterList/view.php:20
+#: ./templates/FosterListUser/view.php:19
+#: ./templates/Message/view.php:18
+#: ./templates/PublicationAdoption/view.php:19
+#: ./templates/PublicationHelp/view.php:19
+#: ./templates/PublicationStray/view.php:18
+#: ./templates/PublicationStrayAddress/view.php:19
+#: ./templates/User/view.php:14
+msgid "Consultar"
+msgstr "View"
+
+#: ./templates/Address/view.php:41
+#: ./templates/Animal/view.php:43
+#: ./templates/AnimalAdoption/view.php:32
+#: ./templates/AnimalShelter/view.php:32
+#: ./templates/User/view.php:43
+msgid "Los datos"
+msgstr "The data"
+
+#: ./templates/Address/view.php:42
+#: ./templates/Animal/view.php:44
+#: ./templates/AnimalAdoption/view.php:33
+#: ./templates/User/view.php:44
+msgid "sobre"
+msgstr "about"
+
+#: ./templates/Address/view.php:53
+#: ./templates/User/view.php:60
+msgid "DNI/CIF/NIE"
+msgid "DNI/CIF/NIE"
+
+#: ./templates/Address/view.php:108
+#: ./templates/User/view.php:136
+msgid "Estandar"
+msgstr "Standar"
+
+#: ./templates/Address/view.php:111
+#: ./templates/Animal/edit.php:119
+#: ./templates/Event/view.php:60
+#: ./templates/User/view.php:139
+msgid "Protectora"
+msgstr "Shelter"
+
+#: ./templates/Address/view.php:114
+#: ./templates/User/view.php:142
+msgid "Admin"
+msgstr "Admin"
+
+#: ./templates/Address/view.php:117
+#: ./templates/Animal/view.php:89
+#: ./templates/Animal/view.php:131
+#: ./templates/Animal/view.php:160
+#: ./templates/Animal/view.php:185
+#: ./templates/FosterListUser/view.php:88
+#: ./templates/PublicationAdoption/view.php:77
+#: ./templates/PublicationHelp/view.php:88
+#: ./templates/PublicationStray/view.php:79
+#: ./templates/User/view.php:145
+#: ./templates/User/view.php:189
+#: ./templates/User/view.php:249
+#: ./templates/User/view.php:281
+#: ./templates/User/view.php:309
+msgid " "
+msgstr " "
+
+#: ./templates/Animal/add.php:29
+msgid "Añadir nuevo"
+msgstr "Add new"
+
+#: ./templates/Animal/add.php:29
+msgid "animal"
+msgstr "animal"
+
+#: ./templates/Animal/add.php:43
+#: ./templates/Animal/edit.php:53
+#: ./templates/Animal/index.php:38
+#: ./templates/Animal/view.php:68
+#: ./templates/FosterListUser/add.php:41
+#: ./templates/FosterListUser/edit.php:42
+#: ./templates/FosterListUser/index.php:26
+#: ./templates/FosterListUser/view.php:66
+#: ./templates/User/add.php:119
+#: ./templates/User/edit.php:144
+#: ./templates/User/view.php:260
+msgid "Perro"
+msgstr "Dog"
+
+#: ./templates/Animal/add.php:43
+#: ./templates/Animal/edit.php:53
+#: ./templates/Animal/index.php:38
+#: ./templates/Animal/view.php:71
+#: ./templates/FosterListUser/add.php:41
+#: ./templates/FosterListUser/edit.php:42
+#: ./templates/FosterListUser/index.php:26
+#: ./templates/FosterListUser/view.php:63
+#: ./templates/User/add.php:119
+#: ./templates/User/edit.php:144
+#: ./templates/User/view.php:263
+msgid "Gato"
+msgstr "Cat"
+
+#: ./templates/Animal/add.php:43
+#: ./templates/Animal/edit.php:53
+#: ./templates/Animal/index.php:38
+#: ./templates/Animal/view.php:74
+#: ./templates/FosterListUser/add.php:41
+#: ./templates/FosterListUser/edit.php:42
+#: ./templates/FosterListUser/index.php:26
+#: ./templates/FosterListUser/view.php:69
+#: ./templates/User/add.php:119
+#: ./templates/User/edit.php:144
+#: ./templates/User/view.php:266
+msgid "Conejo"
+msgstr "Bunny"
+
+#: ./templates/Animal/add.php:43
+#: ./templates/Animal/edit.php:53
+#: ./templates/Animal/index.php:38
+#: ./templates/Animal/view.php:77
+#: ./templates/FosterListUser/add.php:41
+#: ./templates/FosterListUser/edit.php:42
+#: ./templates/FosterListUser/index.php:26
+#: ./templates/FosterListUser/view.php:72
+#: ./templates/User/add.php:119
+#: ./templates/User/edit.php:144
+#: ./templates/User/view.php:269
+msgid "Hamster"
+msgstr "Hamster"
+
+#: ./templates/Animal/add.php:43
+#: ./templates/Animal/edit.php:53
+#: ./templates/Animal/index.php:38
+#: ./templates/Animal/view.php:80
+#: ./templates/FosterListUser/add.php:41
+#: ./templates/FosterListUser/edit.php:42
+#: ./templates/FosterListUser/index.php:26
+#: ./templates/FosterListUser/view.php:75
+#: ./templates/User/add.php:119
+#: ./templates/User/edit.php:144
+#: ./templates/User/view.php:272
+msgid "Serpiente"
+msgstr "Snake"
+
+#: ./templates/Animal/add.php:43
+#: ./templates/Animal/edit.php:53
+#: ./templates/Animal/index.php:38
+#: ./templates/Animal/view.php:83
+#: ./templates/FosterListUser/add.php:41
+#: ./templates/FosterListUser/edit.php:42
+#: ./templates/FosterListUser/index.php:26
+#: ./templates/FosterListUser/view.php:78
+#: ./templates/User/add.php:119
+#: ./templates/User/edit.php:144
+#: ./templates/User/view.php:275
+msgid "Tortuga"
+msgstr "Tortoise"
+
+#: ./templates/Animal/add.php:43
+#: ./templates/Animal/add.php:56
+#: ./templates/Animal/edit.php:53
+#: ./templates/Animal/edit.php:66
+#: ./templates/Animal/index.php:38
+#: ./templates/Animal/view.php:86
+#: ./templates/Animal/view.php:128
+#: ./templates/FosterListUser/add.php:41
+#: ./templates/FosterListUser/edit.php:42
+#: ./templates/FosterListUser/index.php:26
+#: ./templates/FosterListUser/view.php:81
+#: ./templates/PublicationHelp/add.php:42
+#: ./templates/PublicationHelp/edit.php:55
+#: ./templates/PublicationHelp/index.php:35
+#: ./templates/PublicationHelp/view.php:85
+#: ./templates/User/add.php:119
+#: ./templates/User/add.php:130
+#: ./templates/User/edit.php:144
+#: ./templates/User/edit.php:155
+#: ./templates/User/view.php:278
+#: ./templates/User/view.php:306
+msgid "Otro"
+msgstr "Other"
+
+#: ./templates/Animal/add.php:44
+#: ./templates/Animal/edit.php:54
+#: ./templates/Animal/view.php:63
+#: ./templates/FosterListUser/add.php:42
+#: ./templates/FosterListUser/edit.php:43
+msgid "Especie"
+msgstr "Specie"
+
+#: ./templates/Animal/add.php:50
+#: ./templates/Animal/edit.php:60
+#: ./templates/Animal/view.php:96
+msgid "Raza"
+msgstr "Race"
+
+#: ./templates/Animal/add.php:56
+#: ./templates/Animal/edit.php:66
+#: ./templates/Animal/view.php:107
+msgid "Desconocido"
+msgstr "Unknown"
+
+#: ./templates/Animal/add.php:56
+#: ./templates/Animal/edit.php:66
+#: ./templates/Animal/view.php:110
+msgid "Sano"
+msgstr "Healthy"
+
+#: ./templates/Animal/add.php:56
+#: ./templates/Animal/edit.php:66
+#: ./templates/Animal/view.php:113
+msgid "Enfermo"
+msgstr "Sick"
+
+#: ./templates/Animal/add.php:56
+#: ./templates/Animal/edit.php:66
+#: ./templates/Animal/view.php:116
+msgid "Adoptado"
+msgstr "Adopted"
+
+#: ./templates/Animal/add.php:56
+#: ./templates/Animal/edit.php:66
+#: ./templates/Animal/view.php:119
+msgid "Muerto"
+msgstr "Died"
+
+#: ./templates/Animal/add.php:56
+#: ./templates/Animal/edit.php:66
+#: ./templates/Animal/view.php:122
+msgid "Acogido"
+msgstr "Sheltered"
+
+#: ./templates/Animal/add.php:56
+#: ./templates/Animal/edit.php:66
+#: ./templates/Animal/view.php:125
+msgid "Veterinario"
+msgstr "Vet"
+
+#: ./templates/Animal/add.php:57
+#: ./templates/Animal/edit.php:67
+#: ./templates/Animal/view.php:102
+msgid "Estado"
+msgstr "State"
+
+#: ./templates/Animal/add.php:62
+#: ./templates/Animal/add.php:74
+#: ./templates/Animal/edit.php:72
+#: ./templates/Animal/edit.php:84
+#: ./templates/Animal/index.php:41
+#: ./templates/Animal/view.php:142
+#: ./templates/Animal/view.php:182
+msgid "No se sabe"
+msgstr "Don't Known"
+
+#: ./templates/Animal/add.php:62
+#: ./templates/Animal/edit.php:72
+#: ./templates/Animal/index.php:41
+#: ./templates/Animal/view.php:145
+#: ./templates/Animal/view.php:154
+msgid "Hembra"
+msgstr "Female"
+
+#: ./templates/Animal/add.php:62
+#: ./templates/Animal/edit.php:72
+#: ./templates/Animal/index.php:41
+#: ./templates/Animal/view.php:148
+msgid "Macho"
+msgstr "Male"
+
+#: ./templates/Animal/add.php:62
+#: ./templates/Animal/edit.php:72
+#: ./templates/Animal/index.php:41
+#: ./templates/Animal/view.php:151
+msgid "Hembra esterilizada"
+msgstr "Spayed female"
+
+#: ./templates/Animal/add.php:62
+#: ./templates/Animal/edit.php:72
+#: ./templates/Animal/index.php:41
+#: ./templates/Animal/view.php:157
+msgid "Macho castrado"
+msgstr "Neutered male"
+
+#: ./templates/Animal/add.php:63
+#: ./templates/Animal/edit.php:73
+#: ./templates/Animal/view.php:137
+msgid "Sexo"
+msgstr "Sex"
+
+#: ./templates/Animal/add.php:70
+#: ./templates/Animal/edit.php:80
+#: ./templates/Animal/view.php:166
+msgid "Edad"
+msgstr "Age"
+
+#: ./templates/Animal/add.php:74
+#: ./templates/Animal/edit.php:84
+#: ./templates/Animal/view.php:176
+#: ./templates/PublicationAdoption/index.php:35
+#: ./templates/PublicationAdoption/view.php:71
+#: ./templates/PublicationStray/index.php:36
+#: ./templates/PublicationStray/view.php:73
+msgid "Sí"
+msgstr "Yes"
+
+#: ./templates/Animal/add.php:74
+#: ./templates/Animal/edit.php:84
+#: ./templates/Animal/view.php:179
+#: ./templates/PublicationAdoption/add.php:45
+#: ./templates/PublicationAdoption/edit.php:58
+#: ./templates/PublicationAdoption/index.php:35
+#: ./templates/PublicationAdoption/view.php:74
+#: ./templates/PublicationStray/add.php:44
+#: ./templates/PublicationStray/edit.php:63
+#: ./templates/PublicationStray/index.php:36
+#: ./templates/PublicationStray/view.php:76
+msgid "No"
+msgstr "No"
+
+#: ./templates/Animal/add.php:75
+#: ./templates/Animal/edit.php:85
+#: ./templates/Animal/view.php:171
+msgid "Chip"
+msgstr "Chip"
+
+#: ./templates/Animal/add.php:80
+#: ./templates/Animal/edit.php:90
+#: ./templates/PublicationStray/add.php:50
+#: ./templates/PublicationStray/edit.php:69
+#: ./templates/PublicationStrayAddress/add.php:43
+#: ./templates/PublicationStrayAddress/edit.php:63
+msgid "Imagen"
+msgstr "Image"
+
+#: ./templates/Animal/add.php:85
+#: ./templates/Animal/edit.php:96
+#: ./templates/Animal/view.php:192
+#: ./templates/AnimalAdoption/add.php:47
+#: ./templates/AnimalAdoption/edit.php:58
+#: ./templates/AnimalAdoption/view.php:62
+#: ./templates/AnimalShelter/add.php:49
+#: ./templates/AnimalShelter/edit.php:51
+#: ./templates/AnimalShelter/view.php:54
+msgid "Fecha inicio"
+msgstr "Start date"
+
+#: ./templates/Animal/add.php:89
+#: ./templates/Animal/edit.php:100
+#: ./templates/Animal/view.php:197
+#: ./templates/AnimalAdoption/add.php:51
+#: ./templates/AnimalAdoption/edit.php:62
+#: ./templates/AnimalAdoption/view.php:67
+#: ./templates/AnimalShelter/add.php:53
+#: ./templates/AnimalShelter/edit.php:55
+#: ./templates/AnimalShelter/view.php:59
+msgid "Fecha fin"
+msgstr "End date"
+
+#: ./templates/Animal/add.php:95
+#: ./templates/Animal/edit.php:106
+#: ./templates/Animal/view.php:209
+msgid "Información"
+msgstr "Information"
+
+#: ./templates/Animal/add.php:106
+#: ./templates/Animal/edit.php:115
+#: ./templates/Animal/view.php:202
+#: ./templates/AnimalAdoption/add.php:60
+#: ./templates/AnimalAdoption/edit.php:49
+#: ./templates/AnimalAdoption/view.php:57
+#: ./templates/AnimalShelter/add.php:40
+#: ./templates/AnimalShelter/edit.php:42
+#: ./templates/AnimalShelter/view.php:49
+msgid "Usuario"
+msgstr "User"
+
+#: ./templates/Animal/edit.php:18
+#: ./templates/Animal/view.php:29
+msgid "Estas seguro que quieres borrar al animal {0}?"
+msgstr "Are you sure you want to delete the animal {0}?"
+
+#: ./templates/Animal/index.php:16
+msgid "ANIMALES"
+msgstr "ANIMALS"
+
+#: ./templates/Animal/index.php:27
+msgid "Mis Adopciones"
+msgstr "My Adoptions"
+
+#: ./templates/Animal/index.php:31
+msgid "Listas Acogida"
+msgstr "Foster List"
+
+#: ./templates/Animal/index.php:39
+#: ./templates/FosterListUser/index.php:27
+msgid "Buscar por especie: "
+msgstr "Search by por specie: "
+
+#: ./templates/Animal/index.php:40
+msgid "Buscar por raza: "
+msgstr "Search by por race "
+
+#: ./templates/Animal/index.php:42
+msgid "Buscar por sexo: "
+msgstr "Search by sex: "
+
+#: ./templates/Animal/index.php:54
+msgid "Recomendaciones"
+msgstr "Recommendations"
+
+#: ./templates/Animal/index.php:55
+msgid "* Las recomendaciones pueden tardar un poco."
+msgstr "* Recommendations may take a little."
+
+#: ./templates/Animal/index.php:106
+msgid "Estas seguro de querer eliminar el animal {0}?"
+msgstr "Are you sure you want to delete the animal {0}?"
+
+#: ./templates/AnimalAdoption/add.php:31
+#: ./templates/Feature/add.php:29
+msgid "Añadir nueva"
+msgstr "Add new"
+
+#: ./templates/AnimalAdoption/add.php:31
+#: ./templates/AnimalAdoption/edit.php:33
+#: ./templates/AnimalShelter/edit.php:33
+#: ./templates/FosterList/add.php:38
+#: ./templates/PublicationAdoption/add.php:32
+#: ./templates/PublicationAdoption/edit.php:45
+msgid "adopción"
+msgstr "adoption"
+
+#: ./templates/AnimalAdoption/add.php:41
+#: ./templates/AnimalAdoption/edit.php:53
+#: ./templates/AnimalAdoption/view.php:52
+#: ./templates/AnimalShelter/add.php:44
+#: ./templates/AnimalShelter/edit.php:46
+#: ./templates/AnimalShelter/view.php:44
+#: ./templates/Pages/home.php:115
+#: ./templates/PublicationAdoption/add.php:51
+#: ./templates/PublicationAdoption/edit.php:64
+#: ./templates/layout/default.php:80
+msgid "Animal"
+msgstr "Animal"
+
+#: ./templates/AnimalAdoption/edit.php:20
+msgid "Estas seguro que quieres borrar la adopción de {0} por parte de {1}?"
+msgstr "Are you sure you want to delete the adoption of {0} by {1}?"
+
+#: ./templates/AnimalAdoption/index.php:16
+msgid "ADOPCIONES"
+msgstr "ADOPTIONS"
+
+#: ./templates/AnimalAdoption/index.php:31
+msgid "Buscar por nombre animal: "
+msgstr "Search by animal name: "
+
+#: ./templates/AnimalAdoption/index.php:32
+msgid "Buscar por alias de usuario: "
+msgstr "Search by username: "
+
+#: ./templates/AnimalAdoption/index.php:81
+msgid "Estas seguro de querer eliminar la adopcion de {0} por parte de {1}?"
+msgstr "Are you sure you want to remove the adoption of {0} by {1}?"
+
+#: ./templates/AnimalAdoption/view.php:12
+#: ./templates/AnimalShelter/view.php:12
+msgid "Consular"
+msgstr "View"
+
+#: ./templates/AnimalAdoption/view.php:20
+msgid "Estas seguro que quieres borrar la adopción de {1} a {0}?"
+msgstr "Are you sure you want to delete the adoption from {1} to {0}?"
+
+#: ./templates/AnimalShelter/add.php:32
+msgid "Añadir nueva entrada a"
+msgstr "Add new entry to"
+
+#: ./templates/AnimalShelter/edit.php:20
+msgid "Estas seguro que quieres borrar la estancia en la protectora {1} de {0}?"
+msgstr "Are you sure you want to delete the stay in protector {1} of {0}?"
+
+#: ./templates/AnimalShelter/index.php:16
+msgid "ESTANCIA EN PROTECTORA"
+msgstr "STAY IN SHELTER"
+
+#: ./templates/AnimalShelter/index.php:41
+msgid "Estas seguro de querer eliminar la estancia en la protectora {1} de {0}?"
+msgstr "Are you sure you want to remove the {1} protective instance of {0}?"
+
+#: ./templates/AnimalShelter/view.php:20
+msgid "Estas seguro que quieres borrar la estancia  en la protectora {1} de {0}?"
+
+msgstr "Are you sure you want to delete the stay in protector {1} of {0}?"
+
+#: ./templates/AnimalShelter/view.php:33
+msgid "sobre estancia en"
+msgstr "about stay in"
+
+#: ./templates/AnimalShelter/view.php:45
+#: ./templates/PublicationAdoption/view.php:83
+msgid "Animal: "
+msgstr "Animal: "
+
+#: ./templates/Comment/add.php:28
+msgid "Realizar "
+msgstr "Realizar "
+
+#: ./templates/Comment/add.php:28
+msgid "comentario"
+msgstr "comment"
+
+#: ./templates/Comment/add.php:37
+#: ./templates/Comment/edit.php:53
+#: ./templates/Event/add.php:52
+#: ./templates/Event/edit.php:72
+#: ./templates/Event/view.php:77
+#: ./templates/Message/add.php:32
+#: ./templates/Message/add.php:48
+#: ./templates/PublicationAdoption/add.php:54
+#: ./templates/PublicationAdoption/edit.php:67
+#: ./templates/PublicationHelp/add.php:48
+#: ./templates/PublicationHelp/edit.php:61
+#: ./templates/PublicationStray/add.php:54
+#: ./templates/PublicationStray/edit.php:73
+msgid "Mensaje"
+msgstr "Message"
+
+#: ./templates/Comment/add.php:53
+#: ./templates/PublicationAdoption/add.php:67
+#: ./templates/PublicationHelp/add.php:61
+#: ./templates/PublicationStray/add.php:67
+msgid "Publicar"
+msgstr "Post"
+
+#: ./templates/Comment/edit.php:28
+msgid "ELiminar"
+msgstr "Delete"
+
+#: ./templates/Comment/edit.php:29
+#: ./templates/PublicationAdoption/view.php:162
+#: ./templates/PublicationHelp/view.php:163
+#: ./templates/PublicationStray/view.php:162
+msgid "Estas seguro de querer eliminar el comentario ?"
+msgstr "Are you sure you want to delete the comment ?"
+
+#: ./templates/Comment/edit.php:44
+#: ./templates/PublicationHelp/edit.php:42
+msgid "Editar publicación"
+msgstr "Edit post"
+
+#: ./templates/Comment/edit.php:44
+#: ./templates/PublicationHelp/edit.php:42
+msgid "Ayuda"
+msgstr "Help"
+
+#: ./templates/Comment/index.php:8
+#: ./templates/Comment/view.php:14
+msgid "New Comment"
+msgstr ""
+
+#: ./templates/Comment/index.php:9
+msgid "Comment"
+msgstr ""
+
+#: ./templates/Comment/index.php:19
+#: ./templates/Comment/view.php:10
+#: ./templates/Feature/view.php:10
+#: ./templates/FeatureUser/add.php:12
+#: ./templates/FeatureUser/edit.php:12
+#: ./templates/FeatureUser/index.php:18
+#: ./templates/FeatureUser/view.php:10
+#: ./templates/FosterList/edit.php:11
+#: ./templates/Message/edit.php:11
+#: ./templates/Publication/add.php:10
+#: ./templates/Publication/edit.php:10
+#: ./templates/Publication/index.php:18
+#: ./templates/Publication/view.php:10
+msgid "Actions"
+msgstr ""
+
+#: ./templates/Comment/index.php:31
+#: ./templates/FeatureUser/index.php:29
+#: ./templates/Publication/index.php:29
+#: ./vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php:1260
+msgid "View"
+msgstr ""
+
+#: ./templates/Comment/index.php:32
+#: ./templates/FeatureUser/index.php:30
+#: ./templates/Publication/index.php:30
+msgid "Edit"
+msgstr ""
+
+#: ./templates/Comment/index.php:33
+#: ./templates/FeatureUser/edit.php:14
+#: ./templates/FeatureUser/index.php:31
+#: ./templates/FosterList/edit.php:13
+#: ./templates/Message/edit.php:13
+#: ./templates/Publication/edit.php:12
+#: ./templates/Publication/index.php:31
+msgid "Delete"
+msgstr ""
+
+#: ./templates/Comment/index.php:33
+#: ./templates/Comment/view.php:12
+#: ./templates/Feature/view.php:12
+#: ./templates/FeatureUser/edit.php:16
+#: ./templates/FeatureUser/index.php:31
+#: ./templates/FeatureUser/view.php:12
+#: ./templates/FosterList/edit.php:15
+#: ./templates/Message/edit.php:15
+#: ./templates/Publication/edit.php:14
+#: ./templates/Publication/index.php:31
+#: ./templates/Publication/view.php:12
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: ./templates/Comment/index.php:42
+#: ./templates/FeatureUser/index.php:40
+#: ./templates/Publication/index.php:40
+msgid "first"
+msgstr ""
+
+#: ./templates/Comment/index.php:43
+#: ./templates/FeatureUser/index.php:41
+#: ./templates/Publication/index.php:41
+msgid "previous"
+msgstr ""
+
+#: ./templates/Comment/index.php:45
+#: ./templates/FeatureUser/index.php:43
+#: ./templates/Publication/index.php:43
+msgid "next"
+msgstr ""
+
+#: ./templates/Comment/index.php:46
+#: ./templates/FeatureUser/index.php:44
+#: ./templates/Publication/index.php:44
+msgid "last"
+msgstr ""
+
+#: ./templates/Comment/index.php:48
+#: ./templates/FeatureUser/index.php:46
+#: ./templates/Publication/index.php:46
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: ./templates/Comment/view.php:11
+msgid "Edit Comment"
+msgstr ""
+
+#: ./templates/Comment/view.php:12
+msgid "Delete Comment"
+msgstr ""
+
+#: ./templates/Comment/view.php:13
+msgid "List Comment"
+msgstr ""
+
+#: ./templates/Comment/view.php:22
+#: ./templates/Publication/view.php:26
+msgid "Message"
+msgstr ""
+
+#: ./templates/Comment/view.php:26
+#: ./templates/Feature/view.php:26
+#: ./templates/FeatureUser/view.php:34
+#: ./templates/Publication/view.php:30
+msgid "Id"
+msgstr ""
+
+#: ./templates/Comment/view.php:30
+msgid "Publication Id"
+msgstr ""
+
+#: ./templates/Comment/view.php:34
+msgid "User Id"
+msgstr ""
+
+#: ./templates/Comment/view.php:38
+msgid "Comment Date"
+msgstr ""
+
+#: ./templates/Event/add.php:29
+msgid "evento"
+msgstr "event"
+
+#: ./templates/Event/add.php:37
+#: ./templates/Event/edit.php:55
+#: ./templates/PublicationAdoption/add.php:41
+#: ./templates/PublicationHelp/edit.php:51
+#: ./templates/PublicationStray/add.php:40
+msgid "Titulo"
+msgstr "Title"
+
+#: ./templates/Event/add.php:42
+#: ./templates/Event/add.php:47
+msgid "Fecha"
+msgstr "Date"
+
+#: ./templates/Event/edit.php:28
+#: ./templates/Event/view.php:33
+msgid "Estas seguro de querer eliminar el evento {0}?"
+msgstr "Are you sure you want to remove event {0}?"
+
+#: ./templates/Event/edit.php:62
+#: ./templates/Event/view.php:65
+msgid "Inicio"
+msgstr "Start"
+
+#: ./templates/Event/edit.php:67
+#: ./templates/Event/view.php:71
+msgid "Fin"
+msgstr "End"
+
+#: ./templates/Event/view.php:49
+msgid "Los datos sobre el "
+msgstr "The data about the "
+
+#: ./templates/Event/view.php:50
+msgid "evento "
+msgstr "event "
+
+#: ./templates/Feature/add.php:29
+msgid "Característica"
+msgstr "Feature"
+
+#: ./templates/Feature/add.php:37
+#: ./templates/Feature/edit.php:38
+msgid "Clave"
+msgstr "Key"
+
+#: ./templates/Feature/edit.php:17
+msgid "Estas seguro que quieres borrar la característica {0}?"
+msgstr "Are you sure you want to delete feature {0}?"
+
+#: ./templates/Feature/index.php:18
+msgid "CARACTERÍSTICAS"
+msgstr "FEATURES"
+
+#: ./templates/Feature/index.php:57
+msgid "Estas seguro de querer eliminar la característica {0}?"
+msgstr "Are you sure you want to remove feature {0}?"
+
+#: ./templates/Feature/view.php:11
+msgid "Edit Feature"
+msgstr ""
+
+#: ./templates/Feature/view.php:12
+msgid "Delete Feature"
+msgstr ""
+
+#: ./templates/Feature/view.php:13
+msgid "List Feature"
+msgstr ""
+
+#: ./templates/Feature/view.php:14
+msgid "New Feature"
+msgstr ""
+
+#: ./templates/Feature/view.php:22
+msgid "Key Feature"
+msgstr ""
+
+#: ./templates/FeatureUser/add.php:13
+#: ./templates/FeatureUser/edit.php:18
+#: ./templates/FeatureUser/view.php:13
+msgid "List Feature User"
+msgstr ""
+
+#: ./templates/FeatureUser/add.php:20
+msgid "Add Feature User"
+msgstr ""
+
+#: ./templates/FeatureUser/add.php:27
+#: ./templates/FeatureUser/edit.php:32
+#: ./templates/FosterList/edit.php:30
+#: ./templates/Message/edit.php:34
+#: ./templates/Publication/add.php:25
+#: ./templates/Publication/edit.php:30
+msgid "Submit"
+msgstr ""
+
+#: ./templates/FeatureUser/edit.php:25
+#: ./templates/FeatureUser/view.php:11
+msgid "Edit Feature User"
+msgstr ""
+
+#: ./templates/FeatureUser/index.php:8
+#: ./templates/FeatureUser/view.php:14
+msgid "New Feature User"
+msgstr ""
+
+#: ./templates/FeatureUser/index.php:9
+msgid "Feature User"
+msgstr ""
+
+#: ./templates/FeatureUser/view.php:12
+msgid "Delete Feature User"
+msgstr ""
+
+#: ./templates/FeatureUser/view.php:22
+msgid "User"
+msgstr ""
+
+#: ./templates/FeatureUser/view.php:26
+msgid "Feature"
+msgstr ""
+
+#: ./templates/FeatureUser/view.php:30
+msgid "Value"
+msgstr ""
+
+#: ./templates/FosterList/add.php:38
+#: ./templates/PublicationAdoption/add.php:32
+#: ./templates/PublicationHelp/add.php:29
+msgid "Realizar publicación"
+msgstr ""
+
+#: ./templates/FosterList/add.php:46
+msgid " quieres crear una lista de acogida?"
+msgstr ""
+
+#: ./templates/FosterList/add.php:52
+msgid "Crear"
+msgstr ""
+
+#: ./templates/FosterList/edit.php:17
+msgid "List Foster List"
+msgstr ""
+
+#: ./templates/FosterList/edit.php:24
+msgid "Edit Foster List"
+msgstr ""
+
+#: ./templates/FosterList/index.php:22
+msgid "LISTAS"
+msgstr "LIST"
+
+#: ./templates/FosterList/index.php:23
+msgid "ACOGIDA"
+msgstr "FOSTER"
+
+#: ./templates/FosterList/index.php:32
+msgid "Mis listas"
+msgstr "My lists"
+
+#: ./templates/FosterList/index.php:36
+#: ./templates/PublicationStray/index.php:38
+msgid "Buscar por ciudad: "
+msgstr "Search by city: "
+
+#: ./templates/FosterList/index.php:37
+#: ./templates/PublicationStray/index.php:39
+msgid "Buscar por provincia: "
+msgstr "Search by province:"
+
+#: ./templates/FosterList/index.php:38
+#: ./templates/PublicationStray/index.php:40
+msgid "Buscar por país: "
+msgstr "Search by country: "
+
+#: ./templates/FosterList/index.php:64
+msgid "Estas seguro de querer eliminar la lista de protectora {0}?"
+msgstr "Are you sure you want to delete the protective list {0}?"
+
+#: ./templates/FosterList/view.php:30
+msgid "Estas seguro de querer eliminar la lista de acogida ?"
+msgstr "Are you sure you want to delete the host list?"
+
+#: ./templates/FosterList/view.php:77
+#: ./templates/FosterListUser/add.php:61
+msgid "Unirse"
+msgstr "Join"
+
+#: ./templates/FosterListUser/add.php:29
+msgid "Unirse a "
+msgstr "Join to"
+
+#: ./templates/FosterListUser/add.php:29
+msgid "lista acogida"
+msgstr "foster list"
+
+#: ./templates/FosterListUser/add.php:41
+#: ./templates/FosterListUser/edit.php:42
+#: ./templates/FosterListUser/index.php:26
+#: ./templates/FosterListUser/view.php:84
+msgid "Indiferente"
+msgstr "Indifferent"
+
+#: ./templates/FosterListUser/edit.php:19
+#: ./templates/FosterListUser/view.php:30
+msgid "Estas seguro de querer eliminar la participación en la lista de acogida de la protectora {0}?"
+msgstr "Are you sure you want to remove the participation in the host list of protector {0}?"
+
+#: ./templates/FosterListUser/edit.php:31
+msgid "opciones de lista de acogida"
+msgstr "foster list options"
+
+#: ./templates/FosterListUser/index.php:20
+msgid "MIS "
+msgstr "MY "
+
+#: ./templates/FosterListUser/index.php:21
+msgid "LISTAS ACOGIDA"
+msgstr "FOSTER LISTS"
+
+#: ./templates/FosterListUser/index.php:43
+msgid "Protectora: "
+msgstr "Shelter: "
+
+#: ./templates/FosterListUser/index.php:61
+msgid "Estas seguro de querer eliminar la participación en la protectora {0}?"
+msgstr "Are you sure you want to remove the share in protector {0}?"
+
+#: ./templates/FosterListUser/view.php:58
+msgid "Especie: "
+msgstr "Specie: "
+
+#: ./templates/Message/add.php:32
+#: ./templates/Message/add.php:64
+msgid "Enviar"
+msgstr "Send"
+
+#: ./templates/Message/add.php:42
+#: ./templates/PublicationAdoption/edit.php:54
+#: ./templates/PublicationHelp/add.php:38
+#: ./templates/PublicationStray/edit.php:59
+msgid "Título"
+msgstr "Title"
+
+#: ./templates/Message/add.php:45
+msgid "Destinatario"
+msgstr "Receiver"
+
+#: ./templates/Message/edit.php:17
+msgid "List Message"
+msgstr ""
+
+#: ./templates/Message/edit.php:24
+msgid "Edit Message"
+msgstr ""
+
+#: ./templates/Message/index.php:19
+msgid "MIS"
+msgstr "MY"
+
+#: ./templates/Message/index.php:20
+msgid "MENSAJES"
+msgstr "MESSAGES"
+
+#: ./templates/Pages/home.php:122
+#: ./templates/layout/default.php:87
+msgid "Publicaciones de Adopción"
+msgstr "Adoption Publications"
+
+#: ./templates/Pages/home.php:123
+#: ./templates/layout/default.php:88
+msgid "Publicaciones de Ayuda"
+msgstr "Help Publications"
+
+#: ./templates/Pages/home.php:124
+#: ./templates/layout/default.php:89
+msgid "Publicaciones de Perdidos"
+msgstr "Stray Publications"
+
+#: ./templates/Pages/home.php:128
+#: ./templates/layout/default.php:93
+msgid "Eventos"
+msgstr "Events"
+
+#: ./templates/Pages/home.php:132
+#: ./templates/layout/default.php:107
+msgid "Usuarios"
+msgstr "Users"
+
+#: ./templates/Pages/home.php:134
+#: ./templates/Pages/home.php:147
+#: ./templates/layout/default.php:109
+#: ./templates/layout/default.php:122
+msgid "Protectoras"
+msgstr "Shelters"
+
+#: ./templates/Pages/home.php:162
+msgid "Bienvenid@ a "
+msgstr "Welcome to"
+
+#: ./templates/Pages/home.php:163
+msgid "La nueva red de protectoras de animales."
+msgstr "The new network of animal protectors."
+
+#: ./templates/Pages/home.php:193
+msgid "Abandonos en España en 2021"
+msgstr "Abandonments in Spain in 2021"
+
+#: ./templates/Pages/home.php:200
+msgid "Millones de Abandonos en Estados Unidos en 2021"
+msgstr "Millions of Abandonments in the United States in 2021"
+
+#: ./templates/Pages/home.php:207
+msgid "Abandonos en el mundo"
+msgstr "Abandonment in the world"
+
+#: ./templates/Pages/home.php:214
+msgid "Porcentaje Adoptados"
+msgstr "Percent Adopted"
+
+#: ./templates/Pages/home.php:227
+msgid "Sobre SAVEPETS"
+msgstr "About SAVEPETS"
+
+#: ./templates/Pages/home.php:228
+msgid "¿Qué es "
+msgstr "What is "
+
+#: ./templates/Pages/home.php:234
+msgid "PARTICIPA"
+msgstr "JOIN IN"
+
+#: ./templates/Pages/home.php:235
+msgid "NO LO DUDES"
+msgstr "DO NOT HESITATE"
+
+#: ./templates/Pages/home.php:241
+msgid "SAVEPETS es una red de comunicación tanto entre diferentes protectoras de animales como entre protectoras y aquellas personas interesadas en adoptar o ayudar animales. \n                Entre las posibilidades que ofrece SAVEPETS está:"
+msgstr "SAVEPETS is a communication network both between different animal protectors and between protectors and those interested in adopting or helping animals. \n                 Among the possibilities offered by SAVEPETS is:"
+
+#: ./templates/Pages/home.php:245
+msgid "Estar informado sobre los animales en adopción y ponerse en contacto para realizar la adopción."
+msgstr "Be informed about the animals for adoption and get in touch to carry out the adoption."
+
+#: ./templates/Pages/home.php:246
+msgid "Realizar publicaciones para pedir u ofrecer ayuda para los animales (ejemplo mantas, medicamentos,et). También hay publicaciones sobre los animales perdidos."
+msgstr "Make publications to ask for or offer help for animals (for example, blankets, medicines, etc.). There are also posts about lost animals."
+
+#: ./templates/Pages/home.php:247
+msgid "Comunicarse por mensaje privado con las protectoras."
+msgstr "Communicate by private message with the protectors."
+
+#: ./templates/Pages/home.php:248
+msgid "Estar informado sobre las actividades que llevarán a cabo las protectoras."
+msgstr "Be informed about the activities that the protectors will carry out."
+
+#: ./templates/Pages/home.php:249
+msgid "Apuntarte a la lista de acogida de una protectora."
+msgstr "Sign up for a shelter's foster list."
+
+#: ./templates/Pages/home.php:252
+msgid "Toda ayuda es importante y será agradecida."
+msgstr "All help is important and will be appreciated."
+
+#: ./templates/Pages/home.php:270
+msgid "NUESTROS"
+msgstr "OUR"
+
+#: ./templates/Pages/home.php:271
+msgid "OBJETIVOS"
+msgstr "OBJECTIVES"
+
+#: ./templates/Pages/home.php:282
+msgid "BUSCAR HOGAR"
+msgstr "HOME SEARCH"
+
+#: ./templates/Pages/home.php:284
+msgid "El principal objetivo de SAVEPETS es encontrar un buen hogar a todos los animales que carecen de uno.\n                  Para poder llevarlo a cabo se publican los animales que están buscando una nueva casa. Además, se facilita la comunicación con la protectora en la que se encuentran."
+msgstr "The main objective of SAVEPETS is to find a good home for all the animals that lack one.\n                  In order to carry it out, the animals that are looking for a new home are published. In addition, communication with the protector in which they are located is facilitated."
+
+#: ./templates/Pages/home.php:297
+msgid "COMUNIDAD SOLIDARIA"
+msgstr "SOLIDARITY COMMUNITY"
+
+#: ./templates/Pages/home.php:298
+msgid "Todos los usuarios pueden ofrecer y pedir ayuda a los demás usuarios. Esta ayuda sería de medicamentos, mantas, comida, etc. "
+msgstr "All users can offer and ask for help from other users. This help would be medicines, blankets, food, etc. "
+
+#: ./templates/Pages/home.php:310
+msgid "DIFUSIÓN"
+msgstr "DIFFUSION"
+
+#: ./templates/Pages/home.php:311
+msgid "Se difunde no unicamente los animales a los que se le busca hogar, sino que también se informa sobre los animales perdidos y los eventos que realizan las protectoras. De esta forma se busca que la información llegue a un mayor número de personas."
+msgstr "It disseminates not only the animals that are looking for a home, but also reports on the lost animals and the events carried out by the protectors. In this way, the information is sought to reach a greater number of people."
+
+#: ./templates/Pages/home.php:327
+msgid "NOTICIAS"
+msgstr "news"
+
+#: ./templates/Pages/home.php:328
+msgid "¿QUÉ HA PASADO EN "
+msgstr "WHAT HAS HAPPENED IN"
+
+#: ./templates/Pages/home.php:328
+msgid "ÚLTIMAMENTE?"
+msgstr "LATELY?"
+
+#: ./templates/Pages/home.php:335
+msgid "FIN DE LA CREACIÓN"
+msgstr "END OF CREATION"
+
+#: ./templates/Pages/home.php:336
+msgid "Febrero 2023"
+msgstr "February 2023"
+
+#: ./templates/Pages/home.php:338
+msgid "Después de meses de trabajo SAVEPETS está finalizado, cumpliendo con todos los requisitos y funcionalidades previstas."
+msgstr "After months of work SAVEPETS is finished, fulfilling all the requirements and expected functionalities."
+
+#: ./templates/Pages/home.php:343
+msgid "EMPIEZA LA CREACIÓN"
+msgstr "THE CREATION BEGINS"
+
+#: ./templates/Pages/home.php:344
+msgid "Septiembre 2022"
+msgstr "September 2022"
+
+#: ./templates/Pages/home.php:346
+msgid "Se empieza a llevar a cabo la idea planteada y esta irá evolucionando con el paso del tiempo."
+msgstr "The proposed idea begins to be carried out and it will evolve over time."
+
+#: ./templates/Pages/home.php:351
+msgid "Surge la idea de SAVEPETS"
+msgstr "The idea of SAVEPETS arises"
+
+#: ./templates/Pages/home.php:352
+msgid "Agosto 2022"
+msgstr "August 2022"
+
+#: ./templates/Pages/home.php:354
+msgid "Mientras se buscaba ideas para el trabajo fin de máster y se debatían ideas a la hora de la comida con otros miembros de la familia, surge la idea de la creación de una página web para las protectoras de animales. Esta idea evolucionó hasta la idea actual de SAVEPETS."
+msgstr "While looking for ideas for the master's thesis and discussing ideas at lunchtime with other family members, the idea of creating a web page for animal protectors arose. This idea evolved into the current idea of SAVEPETS."
+
+#: ./templates/Publication/add.php:11
+#: ./templates/Publication/edit.php:16
+#: ./templates/Publication/view.php:13
+msgid "List Publication"
+msgstr ""
+
+#: ./templates/Publication/add.php:18
+msgid "Add Publication"
+msgstr ""
+
+#: ./templates/Publication/edit.php:23
+#: ./templates/Publication/view.php:11
+msgid "Edit Publication"
+msgstr ""
+
+#: ./templates/Publication/index.php:8
+#: ./templates/Publication/view.php:14
+msgid "New Publication"
+msgstr ""
+
+#: ./templates/Publication/index.php:9
+msgid "Publication"
+msgstr ""
+
+#: ./templates/Publication/view.php:12
+msgid "Delete Publication"
+msgstr ""
+
+#: ./templates/Publication/view.php:22
+msgid "Title"
+msgstr ""
+
+#: ./templates/Publication/view.php:34
+msgid "Publication Date"
+msgstr ""
+
+#: ./templates/PublicationAdoption/add.php:45
+#: ./templates/PublicationAdoption/edit.php:58
+#: ./templates/PublicationStray/add.php:44
+#: ./templates/PublicationStray/edit.php:63
+msgid "Si"
+msgstr "Yes"
+
+#: ./templates/PublicationAdoption/add.php:46
+#: ./templates/PublicationAdoption/edit.php:59
+#: ./templates/PublicationAdoption/view.php:66
+#: ./templates/PublicationStray/add.php:45
+#: ./templates/PublicationStray/edit.php:64
+#: ./templates/PublicationStray/view.php:68
+msgid "Urgente"
+msgstr "Urgent"
+
+#: ./templates/PublicationAdoption/edit.php:31
+#: ./templates/PublicationAdoption/index.php:99
+#: ./templates/PublicationAdoption/view.php:31
+#: ./templates/PublicationHelp/edit.php:27
+#: ./templates/PublicationHelp/index.php:86
+#: ./templates/PublicationHelp/view.php:30
+#: ./templates/PublicationStray/edit.php:27
+#: ./templates/PublicationStray/index.php:103
+#: ./templates/PublicationStray/view.php:31
+msgid "Estas seguro de querer eliminar la publicación {0}?"
+msgstr "Are you sure you want to delete post {0}?"
+
+#: ./templates/PublicationAdoption/edit.php:45
+#: ./templates/PublicationStray/edit.php:42
+msgid "Editar publicación "
+msgstr "Edit publication "
+
+#: ./templates/PublicationAdoption/index.php:21
+#: ./templates/PublicationHelp/index.php:21
+#: ./templates/PublicationStray/index.php:22
+msgid "PUBLICACIONES"
+msgstr "PUBLICATIONS"
+
+#: ./templates/PublicationAdoption/index.php:22
+msgid "ADOPCIÓN"
+msgstr "ADOPTION"
+
+#: ./templates/PublicationAdoption/index.php:36
+#: ./templates/PublicationHelp/index.php:36
+msgid "Buscar categoria: "
+msgstr "Search category: "
+
+#: ./templates/PublicationAdoption/view.php:107
+#: ./templates/PublicationHelp/view.php:108
+#: ./templates/PublicationStray/view.php:108
+msgid "Comentarios"
+msgstr "Comments"
+
+#: ./templates/PublicationHelp/add.php:29
+msgid "ayuda"
+msgstr "help"
+
+#: ./templates/PublicationHelp/add.php:42
+#: ./templates/PublicationHelp/edit.php:55
+#: ./templates/PublicationHelp/index.php:35
+#: ./templates/PublicationHelp/view.php:70
+msgid "Textil"
+msgstr "Textile"
+
+#: ./templates/PublicationHelp/add.php:42
+#: ./templates/PublicationHelp/edit.php:55
+#: ./templates/PublicationHelp/index.php:35
+#: ./templates/PublicationHelp/view.php:73
+msgid "Medicamentos"
+msgstr "Medicines"
+
+#: ./templates/PublicationHelp/add.php:42
+#: ./templates/PublicationHelp/edit.php:55
+#: ./templates/PublicationHelp/index.php:35
+#: ./templates/PublicationHelp/view.php:76
+msgid "Comida"
+msgstr "Food"
+
+#: ./templates/PublicationHelp/add.php:42
+#: ./templates/PublicationHelp/edit.php:55
+#: ./templates/PublicationHelp/index.php:35
+#: ./templates/PublicationHelp/view.php:79
+msgid "Productos limpieza"
+msgstr "Cleaning products"
+
+#: ./templates/PublicationHelp/add.php:42
+#: ./templates/PublicationHelp/edit.php:55
+#: ./templates/PublicationHelp/index.php:35
+#: ./templates/PublicationHelp/view.php:82
+msgid "Accesorios para mascotas"
+msgstr "Pet accessories"
+
+#: ./templates/PublicationHelp/add.php:43
+#: ./templates/PublicationHelp/edit.php:56
+msgid "Categoria"
+msgstr "Category"
+
+#: ./templates/PublicationHelp/index.php:22
+msgid "AYUDA"
+msgstr "HELP"
+
+#: ./templates/PublicationHelp/view.php:65
+msgid "Categoría: "
+msgstr "Category: "
+
+#: ./templates/PublicationStray/add.php:31
+msgid "Realizar publicación "
+msgstr "Publish "
+
+#: ./templates/PublicationStray/add.php:31
+#: ./templates/PublicationStray/edit.php:42
+#: ./templates/PublicationStrayAddress/edit.php:46
+msgid "animales perdidos"
+msgstr "stray animals"
+
+#: ./templates/PublicationStray/index.php:23
+#: ./templates/PublicationStrayAddress/index.php:23
+msgid "ANIMALES PERDIDOS"
+msgstr "STRAY ANIMALS"
+
+#: ./templates/PublicationStray/index.php:37
+msgid "Buscar Urgente: "
+msgstr "Search Urgent: "
+
+#: ./templates/PublicationStray/view.php:97
+msgid "Ver Direcciones"
+msgstr "See Directions"
+
+#: ./templates/PublicationStrayAddress/add.php:33
+msgid "Añadir dirección de "
+msgstr "Add address of "
+
+#: ./templates/PublicationStrayAddress/add.php:33
+msgid "animal perdido"
+msgstr "stray animal"
+
+#: ./templates/PublicationStrayAddress/edit.php:31
+#: ./templates/PublicationStrayAddress/view.php:32
+msgid "Estas seguro de querer eliminar la publicación {0}, {1}?"
+msgstr "Are you sure you want to delete post {0}, {1}?"
+
+#: ./templates/PublicationStrayAddress/edit.php:46
+msgid "Editar direcciones "
+msgstr "Edit addresses"
+
+#: ./templates/PublicationStrayAddress/index.php:22
+msgid "DIRECCIONES "
+msgstr "ADDRESS "
+
+#: ./templates/PublicationStrayAddress/index.php:87
+msgid "Estas seguro de querer eliminar la dirección {0}, {1}?"
+msgstr "Are you sure you want to remove the address {0}, {1}?"
+
+#: ./templates/User/add.php:70
+#: ./templates/User/edit.php:82
+#: ./templates/User/view.php:96
+msgid "Fecha Nacimiento"
+msgstr "Birth date"
+
+#: ./templates/User/add.php:92
+#: ./templates/User/edit.php:117
+msgid "* Los siguientes campos son opcionales, pero nos permitirán mejorar tu experiencia"
+msgstr "* The following fields are optional, but they will allow us to improve your experience"
+
+#: ./templates/User/add.php:95
+#: ./templates/User/edit.php:120
+#: ./templates/User/view.php:157
+msgid "Trabajo"
+msgstr "Work"
+
+#: ./templates/User/add.php:98
+#: ./templates/User/edit.php:123
+#: ./templates/User/view.php:162
+msgid "Estudios"
+msgstr "Studies"
+
+#: ./templates/User/add.php:104
+#: ./templates/User/edit.php:129
+#: ./templates/User/view.php:174
+msgid "Soltero"
+msgstr "Single"
+
+#: ./templates/User/add.php:104
+#: ./templates/User/edit.php:129
+#: ./templates/User/view.php:177
+msgid "Casado"
+msgstr "Married"
+
+#: ./templates/User/add.php:104
+#: ./templates/User/edit.php:129
+#: ./templates/User/view.php:180
+msgid "Divorciado"
+msgstr "Divorced"
+
+#: ./templates/User/add.php:104
+#: ./templates/User/edit.php:129
+#: ./templates/User/view.php:183
+msgid "Separado"
+msgstr "Separated"
+
+#: ./templates/User/add.php:104
+#: ./templates/User/edit.php:129
+#: ./templates/User/view.php:186
+msgid "Relación"
+msgstr "Relationship"
+
+#: ./templates/User/add.php:105
+#: ./templates/User/edit.php:130
+#: ./templates/User/view.php:169
+msgid "Estado Civil"
+msgstr "Civil Status"
+
+#: ./templates/User/add.php:108
+#: ./templates/User/edit.php:133
+#: ./templates/User/view.php:195
+msgid "Hijos"
+msgstr "Children"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:207
+msgid "Casa independiente"
+msgstr "Independent house"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:210
+msgid "Chalet pareado"
+msgstr "Semi-detached house"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:213
+msgid "Chalet adosado"
+msgstr "Terraced house"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:216
+msgid "Bungalows"
+msgstr "Bungalows"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:219
+msgid "Estudio"
+msgstr "Studies"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:222
+msgid "Apartamento"
+msgstr "Apartament"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:225
+msgid "Piso"
+msgstr "Flat"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:228
+msgid "Ático"
+msgstr "Atic"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:231
+msgid "Bajo"
+msgstr "Ground floor"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:234
+msgid "Bajo con jardín"
+msgstr "Ground floor with garden"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:237
+msgid "Loft"
+msgstr "Loft"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:240
+msgid "Dúplex"
+msgstr "Duplex"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:243
+msgid "Triplex"
+msgstr "Triplex"
+
+#: ./templates/User/add.php:114
+#: ./templates/User/edit.php:139
+#: ./templates/User/view.php:246
+msgid "Quadplex"
+msgstr "Quadplex"
+
+#: ./templates/User/add.php:115
+#: ./templates/User/edit.php:140
+msgid "Tipo de vivienda"
+msgstr "Type of house"
+
+#: ./templates/User/add.php:120
+#: ./templates/User/edit.php:145
+#: ./templates/User/view.php:255
+msgid "Otras mascotas"
+msgstr "Other pets"
+
+#: ./templates/User/add.php:126
+#: ./templates/User/edit.php:151
+msgid "Número mascotas"
+msgstr "Number of pets"
+
+#: ./templates/User/add.php:130
+#: ./templates/User/edit.php:155
+#: ./templates/User/view.php:297
+msgid "Hombre"
+msgstr "Man"
+
+#: ./templates/User/add.php:130
+#: ./templates/User/edit.php:155
+#: ./templates/User/view.php:300
+msgid "Mujer"
+msgstr "Woman"
+
+#: ./templates/User/add.php:130
+#: ./templates/User/edit.php:155
+#: ./templates/User/view.php:303
+msgid "No binario"
+msgstr "No binary"
+
+#: ./templates/User/add.php:131
+#: ./templates/User/edit.php:156
+#: ./templates/User/view.php:152
+#: ./templates/User/view.php:292
+msgid "Genero"
+msgstr "Gender"
+
+#: ./templates/User/login.php:21
+#: ./templates/User/login.php:57
+msgid "Login"
+msgstr "Login"
+
+#: ./templates/User/login.php:38
+msgid "LOGIN"
+msgstr "LOGIN"
+
+#: ./templates/User/view.php:202
+msgid "Tipo de Casa"
+msgstr "House Type"
+
+#: ./templates/User/view.php:287
+msgid "Número de mascotas"
+msgstr "Number of pets"
+
+#: ./templates/layout/default.php:84
+msgid "Publicaciones"
+msgstr "Publications"
+
+#: ./templates/layout/error.php:38
+msgid "Back"
+msgstr ""
+
+#: ./vendor/cakephp/cakephp/src/Validation/Validator.php:2557
+#: ./vendor/cakephp/cakephp/src/Validation/Validator.php:2559
+msgid "El campo no puede ser vacío."
+msgstr "El campo no puede ser vacío."
