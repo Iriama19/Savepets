@@ -50,7 +50,7 @@ if($this->Identity->isLoggedIn()){
               <?php }else{ ?>
                 <img src="/img/useronly.png" class="img-perfil" alt="Standar icon">
               <?php } 
-                if($this->Identity->isLoggedIn()&& ($currentuserRol=="admin" || $currentuserRol=="shelter" || $publicationHelp->user->role =="shelter" ||$currentuserID==$publicationAdoption->user_id)){
+                if($this->Identity->isLoggedIn()&& ($currentuserRol=="admin" || $currentuserRol=="shelter" || $publicationHelp->user->role =="shelter" ||$currentuserID==$publicationHelp->user_id)){
               ?>
                   <h3> <?= $publicationHelp->has('user') ? $this->Html->link($publicationHelp->user->username, ['controller' => 'User', 'action' => 'view', $publicationHelp->user->id]) : '' ?></h3> 
                 <?php }else{?>

@@ -8,6 +8,8 @@ if($this->Identity->isLoggedIn()){
   $currentuser = $this->request->getAttribute('identity');
   $currentuserRol=$currentuser->role;
   $currentuserID=$currentuser->id;
+  $currentuserUsername=$currentuser->username;
+
 }
 ?>
 

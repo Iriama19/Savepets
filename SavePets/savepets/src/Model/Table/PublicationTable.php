@@ -76,7 +76,7 @@ class PublicationTable extends Table
             ->notEmptyString('title',__('El título no puede ser vacío.'))
             ->add('title',
                 ['regex'=>[
-                    'rule' =>['custom','/^[\wñçÁ-Úá-ú\s.º,-]*$/i'],
+                    'rule' =>['custom','/^[\wñçÁ-Úá-ú\s.º,\?\¿\¡\!-]*$/i'],
                     'message' => __('El título debe contener solo caracteres alfabéticos, espacios y algunos símbolos [. , º ].')
                 ]])
             ->add('title',

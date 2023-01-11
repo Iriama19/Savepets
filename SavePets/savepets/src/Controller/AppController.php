@@ -251,8 +251,7 @@ class AppController extends Controller
                 $this->response = $this->response->withCookie($idioma);
                 $this->idiomacookie = 'es_ES';
         }
-
         $this->redirect($this->referer());
-
+        
     }
 }

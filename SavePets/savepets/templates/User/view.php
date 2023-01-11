@@ -61,22 +61,7 @@ $this->loadHelper('Authentication.Identity');
               <?= h($user->DNI_CIF) ?>
                 <div class="validate"></div>
                 </div><br>
-                <?php 
-                    if($this->Identity->isLoggedIn()){
-                      $currentuser = $this->request->getAttribute('identity');
-                      $currentuserRol=$currentuser->role;
-                      $currentuserUsername=$currentuser->username;
-
-                        if($currentuserRol=="admin" || $currentuserUsername==$user->username){ ?>
-                            <div class="col-lg-4 col-md-6">
-                              <h5><?= __('Contraseña') ?></h5>
-                              <?= h($user->password) ?>
-                            <div class="validate"></div>
-                            </div><br>            
-                <?php
-                   }
-                  }
-                ?>    
+                
             <div class="col-lg-4 col-md-6">
               <h5><?= __('Nombre') ?>:</h5>
               <?= h($user->name) ?>
@@ -157,7 +142,6 @@ $this->loadHelper('Authentication.Identity');
               <h5><?= __('Trabajo') ?>:</h5>
               <?= h($user->feature_user[0]->value) ?>
               <div class="validate"></div>
-            </div><br>
             <div class="col-lg-4 col-md-6">
               <h5><?= __('Estudios') ?>:</h5>
               <?= h($user->feature_user[1]->value) ?>

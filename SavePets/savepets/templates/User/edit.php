@@ -62,7 +62,7 @@ $this->loadHelper('Authentication.Identity');
                     <?php echo $this->Form->control('name',['class'=>'form-control','label'=> __('Nombre')]); ?>
                 </div>
                 <div class="col-xl-6 form-group">
-                    <?php echo $this->Form->control('user.lastname',['class'=>'form-control','label'=> __('Apellido')]); ?>
+                    <?php echo $this->Form->control('lastname',['class'=>'form-control','label'=> __('Apellido')]); ?>
                 </div>
             </div>
             <div class="row">

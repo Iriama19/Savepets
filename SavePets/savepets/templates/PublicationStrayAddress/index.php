@@ -9,6 +9,8 @@ if($this->Identity->isLoggedIn()){
   $currentuser = $this->request->getAttribute('identity');
   $currentuserRol=$currentuser->role;
   $currentuserID=$currentuser->id;
+  $currentuserUsername=$currentuser->username;
+
 }
 ?>   
 
@@ -51,7 +53,7 @@ if($this->Identity->isLoggedIn()){
                                         <img src="/img/useronly.png" class="img-perfil" alt="Standar icon">
                                     <?php  } 
                                     if($this->Identity->isLoggedIn()){
-                                        if($currentuserRol=="admin" || $currentuserRol=="shelter"  || $publicationStrayAddres->user->role =="shelter" ||$currentuserID==$publicationStrayAddress->user_id){
+                                        if($currentuserRol=="admin" || $currentuserRol=="shelter"  || $publicationStrayAddress->user->role =="shelter" ||$currentuserID==$publicationStrayAddress->user_id){
                                         ?>
                                             <h3> <?= $publicationStrayAddress->has('user') ? $this->Html->link($publicationStrayAddress->user->username, ['controller' => 'User', 'action' => 'view', $publicationStrayAddress->user->id]) : '' ?></h3> 
                                        <?php } }else{?>

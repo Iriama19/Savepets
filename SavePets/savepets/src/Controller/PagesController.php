@@ -45,8 +45,11 @@ class PagesController extends AppController
      */
     public function display(string ...$path): ?Response
     {
-        if (!$path) {
+        if (!$path ) {
             return $this->redirect('/');
+        }
+        if (!$path ||$path[0]=="change-lang") {
+            return $this->redirect('/animal/change-lang');
         }
         if (in_array('..', $path, true) || in_array('.', $path, true)) {
             throw new ForbiddenException();
@@ -69,8 +72,10 @@ class PagesController extends AppController
         }else{
             $this->set(compact('page', 'subpage'));
         }
+
         try {
             return $this->render(implode('/', $path));
+
         } catch (MissingTemplateException $exception) {
             if (Configure::read('debug')) {
                 throw $exception;

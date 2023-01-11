@@ -8,6 +8,8 @@ if($this->Identity->isLoggedIn()){
   $currentuser = $this->request->getAttribute('identity');
   $currentuserRol=$currentuser->role;
   $currentuserID=$currentuser->id;
+  $currentuserUsername=$currentuser->username;
+
 }
 ?>
 
@@ -33,7 +35,7 @@ if($this->Identity->isLoggedIn()){
                 <?php 
                 
                     $opciones=[''=>'','yes'=>__('Sí'),'No'=>__('No')];
-                    echo $this->Form->control('keyUrgente',['class'=>'formsearch select','label' => __('Buscar categoria: '), 'value' => $this->request->getQuery('keyUrgente'),'options'=>$opciones]) ?>
+                    echo $this->Form->control('keyUrgente',['class'=>'formsearch select','label' => __('Buscar urgente: '), 'value' => $this->request->getQuery('keyUrgente'),'options'=>$opciones]) ?>
 
                 <div class="text-center"><?= $this->Form->button(__('Buscar')) ?></div>
 

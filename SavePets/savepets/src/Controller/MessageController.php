@@ -68,7 +68,14 @@ class MessageController extends AppController
             }
             $this->Flash->error(__('El mensaje no se ha podido enviar. Por favor, intentalo de nuevo.'));
         }
-        $user = $this->Message->User->find('list', ['limit' => 200])->all();
+        $currentUser =$this->request->getAttribute('identity');
+        $currentUserID =$currentUser['id']; //id usuario logeado
+        $currentUserRol =$currentUser['role']; //id usuario logeado
+        if($currentUserRol=='standar'){
+        $user = $this->Message->User->find('list', ['limit' => 200])->where(['or'=>[['role'=>'admin'],['role'=>'shelter']]]);
+        }else{
+            $user = $this->Message->User->find('list', ['limit' => 200])->all();
+        }
         $this->set(compact('message', 'user'));
     }
 

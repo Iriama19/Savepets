@@ -9,6 +9,8 @@ if($this->Identity->isLoggedIn()){
   $currentuserRol=$currentuser->role;
   $currentuserID=$currentuser->id;
 }
+use Cake\I18n\I18n;
+
 ?>
 <div class="hidden" id="listaeventos" style="display: none"><?php echo json_encode($event) ?></div>
 <?php 
@@ -29,7 +31,8 @@ if($this->Identity->isLoggedIn()){
         var arrayeventoslist=arrayeventos.innerHTML;
         var arrayevent=JSON.parse(arrayeventoslist);
     
-
+        <?php if (I18n::getLocale() !== 'en_US'){ ?>
+  
         var calendar = new FullCalendar.Calendar(calendarEl, {
           initialView: 'dayGridMonth',
           timeZone: 'Europe/Madrid',
@@ -49,7 +52,27 @@ if($this->Identity->isLoggedIn()){
               
             
         });
-        
+        <?php }else{?>
+          var calendar = new FullCalendar.Calendar(calendarEl, {
+          initialView: 'dayGridMonth',
+          timeZone: 'Europe/Madrid',
+          locale:'en',
+          eventClick: function(info) {
+                window.location.href= 'http://localhost:8765/event/view/'+(info.event.id).toString();
+            },
+            events:
+            $.map(arrayevent,function(item){
+              return{
+                id: item.id,
+                title: item.title,
+                start: item.start_date,
+                end: item.end_date,            
+              }
+            })
+              
+            
+        });
+        <?php }?>
         calendar.render();
       });
 
